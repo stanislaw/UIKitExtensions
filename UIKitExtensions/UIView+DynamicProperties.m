@@ -19,8 +19,9 @@ static void *dynamicPropertiesKey;
 }
 
 - (void)applyDynamicProperties {
-    if (self.dynamicPropertiesBlock == nil)
-        raiseInternalInconsistencyException(@"dynamic properties should be defined to be run");
+    if (self.dynamicPropertiesBlock == nil) {
+        @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:@"dynamic properties should be defined to be run" userInfo:nil];
+    }
     
     self.dynamicPropertiesBlock(self);
 }

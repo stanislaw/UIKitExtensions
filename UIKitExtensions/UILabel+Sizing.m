@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 IProjecting. All rights reserved.
 //
 
-#import "UILabel+Extensions.h"
+#import "UILabel+Sizing.h"
 
 @implementation UILabel (Extensions)
 

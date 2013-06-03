@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UIKitExtensions"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A collection of extensions for UIKit framework."
 
   # s.description  = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Stanislaw Pankevich" => "s.pankevich@gmail.com" }
 
-  s.source       = { :git => "https://github.com/stanislaw/UIKitExtensions.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/stanislaw/UIKitExtensions.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '5.0'
 

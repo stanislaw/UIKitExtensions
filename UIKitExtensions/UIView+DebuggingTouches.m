@@ -13,7 +13,7 @@
 
 @implementation UIView (DebuggingTouches)
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    LS(@"%@ Debugging: %@", [NSDate date], self);
+    NSLog(@"Debugging: %@", self);
 
     [super touchesBegan:touches withEvent:event];
 }
@@ -21,7 +21,7 @@
 
 @implementation UIViewController (DebuggingTouches)
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    LS(@"%@ Debugging: %@", [NSDate date], self);
+    NSLog(@"Debugging: %@", self);
 
     [super touchesBegan:touches withEvent:event];
 }

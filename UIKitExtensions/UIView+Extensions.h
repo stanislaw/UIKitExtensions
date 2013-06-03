@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import "NSObject+Extensions.h"
-
 @interface UIView (Extensions)
 
 - (id)initWithBlock:(void(^)(id))block;

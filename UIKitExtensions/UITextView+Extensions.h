@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import "NSObject+Extensions.h"
-
 @interface UITextView (Extensions)
 
 - (CGRect)rectForStringInRange:(CFRange)stringRange;
