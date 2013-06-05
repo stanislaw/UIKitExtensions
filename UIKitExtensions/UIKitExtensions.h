@@ -1,7 +1,10 @@
-#import "UIScreen_Extensions.h"
+#import <UIKit/UIKit.h>
 
-#define SMALL_OFFSET(offset) offset
+#import "UIHelpers.h"
 
-static inline UIView * topMostView() {
-    return UIApplication.sharedApplication.windows.lastObject;
-}
+#import "UIImage.h"
+#import "UILabel.h"
+#import "UIScreen.h"
+#import "UIScrollView.h"
+#import "UITextView.h"
+#import "UIView.h"

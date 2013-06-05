@@ -70,6 +70,7 @@
 		8626A102175CF6F700D32F79 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8626A10A175CF6F700D32F79 /* UIKitExtensionsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIKitExtensionsAppTests-Info.plist"; sourceTree = "<group>"; };
 		8626A10C175CF6F700D32F79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8698FFFD175EDAEE00E1DEAE /* UIHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelpers.h; sourceTree = "<group>"; };
 		86C7CBB1175ECE9900FE5CEB /* ScalingAndCropping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScalingAndCropping.h; sourceTree = "<group>"; };
 		86C7CBB2175ECE9900FE5CEB /* ScalingAndCropping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScalingAndCropping.m; sourceTree = "<group>"; };
 		86C7CBB3175ECE9900FE5CEB /* UIKitExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitExtensions.h; sourceTree = "<group>"; };
@@ -211,9 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				86C7CBB0175ECE9900FE5CEB /* UIImage */,
-				86C7CBB3175ECE9900FE5CEB /* UIKitExtensions.h */,
 				86C7CBB4175ECE9900FE5CEB /* UILabel */,
-				86C7CBB8175ECE9900FE5CEB /* UIScreen.h */,
 				86C7CBB9175ECE9900FE5CEB /* UIScrollView */,
 				86C7CBBC175ECE9900FE5CEB /* UITextView */,
 				86C7CBBF175ECE9900FE5CEB /* UIView */,
@@ -222,6 +221,9 @@
 				86C7CBD2175ECF0000FE5CEB /* UIScrollView.h */,
 				86C7CBD3175ECF0900FE5CEB /* UILabel.h */,
 				86C7CBD4175ECF1200FE5CEB /* UIImage.h */,
+				86C7CBB8175ECE9900FE5CEB /* UIScreen.h */,
+				8698FFFD175EDAEE00E1DEAE /* UIHelpers.h */,
+				86C7CBB3175ECE9900FE5CEB /* UIKitExtensions.h */,
 			);
 			name = UIKitExtensions;
 			path = ../../../../../stanislaw/Work/Pods/UIKitExtensions/UIKitExtensions;
