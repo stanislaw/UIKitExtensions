@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (Extensions)
+@interface UIView (Blocks)
 
 - (id)initWithBlock:(void(^)(id))block;
 

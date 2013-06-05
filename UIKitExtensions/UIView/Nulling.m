@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 IProjecting. All rights reserved.
 //
 
-#import "UIView+Nulling.h"
+#import "Nulling.h"
 
 @implementation UIView (Nulling)
 

@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 IProjecting. All rights reserved.
 //
 
-#import "UIView+Sizing.h"
+#import "Sizing.h"
 
 @implementation UIView (Sizing)
 

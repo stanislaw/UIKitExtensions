@@ -3,3 +3,7 @@
 @protocol UIRotation <NSObject>
 - (void)handleRotation;
 @end
+
+@interface UIView (Rotation)
+- (void)handleRotation;
+@end

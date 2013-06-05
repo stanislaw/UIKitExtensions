@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 IProjecting. All rights reserved.
 //
 
-#import "UIScrollView+Extensions.h"
+#import "Core.h"
 
 @implementation UIScrollView (Extensions)
 

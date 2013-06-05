@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UILabel (Extensions)
+@interface UILabel (Sizing)
 
 - (void)resizeFrameToFitTheText;
 - (void)resizeFrameHeightToFitTheText;

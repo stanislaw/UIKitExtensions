@@ -1,14 +1,7 @@
-//
-//  UILabel+Extensions.m
-//  aaah
-//
-//  Created by Stanislaw Pankevich on 1/22/13.
-//  Copyright (c) 2013 IProjecting. All rights reserved.
-//
 
-#import "UILabel+Sizing.h"
+#import "Sizing.h"
 
-@implementation UILabel (Extensions)
+@implementation UILabel (Sizing)
 
 - (void)resizeFrameToFitTheText {
     NSString *stringToCalucateSizeAgainst;

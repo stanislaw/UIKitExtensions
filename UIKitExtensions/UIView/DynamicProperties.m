@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 IProjecting. All rights reserved.
 //
 
-#import "UIView+DynamicProperties.h"
+#import "DynamicProperties.h"
 #import <objc/runtime.h>
 
 static void *dynamicPropertiesKey;

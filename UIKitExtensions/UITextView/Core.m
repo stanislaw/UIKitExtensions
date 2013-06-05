@@ -1,4 +1,4 @@
-#import "UITextView+Extensions.h"
+#import "Core.h"
 
 @implementation UITextView (Extensions)
 

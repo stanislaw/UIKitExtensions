@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 IProjecting. All rights reserved.
 //
 
-#import "UIView+Extensions.h"
+#import "Blocks.h"
 
-@implementation UIView (Extensions)
+@implementation UIView (Blocks)
 
 - (id)initWithBlock:(void(^)(id))block {
     self = [self initWithFrame:CGRectZero];
