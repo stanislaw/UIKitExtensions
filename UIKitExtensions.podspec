@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UIKitExtensions"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "A collection of extensions for UIKit framework."
 
   # s.description  = <<-DESC
