@@ -1,10 +1,5 @@
-//
-//  UIView+Sizing.h
-//  aaah
-//
-//  Created by Stanislaw Pankevich on 5/10/13.
-//  Copyright (c) 2013 IProjecting. All rights reserved.
-//
+// Inspired by FrameAccessor
+// https://github.com/AlexDenisov/FrameAccessor/
 
 #import <UIKit/UIKit.h>
 
@@ -22,3 +17,4 @@
 @property CGFloat centerY;
 
 @end
+
