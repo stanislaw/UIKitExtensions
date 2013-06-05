@@ -1,12 +1,12 @@
 //
 //  UIImage+Clipping.m
-//  UIKitExtensionsApp
+//  UIKitExtensions
 //
 //  Created by Stanislaw Pankevich on 6/5/13.
 //  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
 //
 
-#import "UIImage+Clipping.h"
+#import "Clipping.h"
 
 @implementation UIImage (Clipping)
 
