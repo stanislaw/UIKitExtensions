@@ -23,6 +23,8 @@
 		8626A104175CF6F700D32F79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DB175CF6F700D32F79 /* UIKit.framework */; };
 		8626A105175CF6F700D32F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DD175CF6F700D32F79 /* Foundation.framework */; };
 		8626A10D175CF6F700D32F79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8626A10B175CF6F700D32F79 /* InfoPlist.strings */; };
+		86980008175F023800E1DEAE /* UIDevice_Extensions_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86980006175F021200E1DEAE /* UIDevice_Extensions_Tests.m */; };
+		8698000B175F026A00E1DEAE /* UIKitExtensions_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86980009175F025500E1DEAE /* UIKitExtensions_Tests.m */; };
 		86C7CBC8175ECE9900FE5CEB /* ScalingAndCropping.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBB2175ECE9900FE5CEB /* ScalingAndCropping.m */; };
 		86C7CBC9175ECE9900FE5CEB /* Sizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBB6175ECE9900FE5CEB /* Sizing.m */; };
 		86C7CBCA175ECE9900FE5CEB /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBBB175ECE9900FE5CEB /* Core.m */; };
@@ -70,6 +72,10 @@
 		8626A102175CF6F700D32F79 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8626A10A175CF6F700D32F79 /* UIKitExtensionsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIKitExtensionsAppTests-Info.plist"; sourceTree = "<group>"; };
 		8626A10C175CF6F700D32F79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86980002175EFF0800E1DEAE /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		86980005175EFF1600E1DEAE /* UIDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDevice.h; sourceTree = "<group>"; };
+		86980006175F021200E1DEAE /* UIDevice_Extensions_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIDevice_Extensions_Tests.m; path = ../../../../../stanislaw/Work/Pods/UIKitExtensions/Tests/UIDevice_Extensions_Tests.m; sourceTree = "<group>"; };
+		86980009175F025500E1DEAE /* UIKitExtensions_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIKitExtensions_Tests.m; path = ../../../../../stanislaw/Work/Pods/UIKitExtensions/Tests/UIKitExtensions_Tests.m; sourceTree = "<group>"; };
 		8698FFFD175EDAEE00E1DEAE /* UIHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelpers.h; sourceTree = "<group>"; };
 		86C7CBB1175ECE9900FE5CEB /* ScalingAndCropping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScalingAndCropping.h; sourceTree = "<group>"; };
 		86C7CBB2175ECE9900FE5CEB /* ScalingAndCropping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScalingAndCropping.m; sourceTree = "<group>"; };
@@ -208,9 +214,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		86980001175EFF0800E1DEAE /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				86980002175EFF0800E1DEAE /* Logging.h */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
 		86C7CBAF175ECE9900FE5CEB /* UIKitExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				86980001175EFF0800E1DEAE /* UIDevice */,
 				86C7CBB0175ECE9900FE5CEB /* UIImage */,
 				86C7CBB4175ECE9900FE5CEB /* UILabel */,
 				86C7CBB9175ECE9900FE5CEB /* UIScrollView */,
@@ -224,6 +239,7 @@
 				86C7CBB8175ECE9900FE5CEB /* UIScreen.h */,
 				8698FFFD175EDAEE00E1DEAE /* UIHelpers.h */,
 				86C7CBB3175ECE9900FE5CEB /* UIKitExtensions.h */,
+				86980005175EFF1600E1DEAE /* UIDevice.h */,
 			);
 			name = UIKitExtensions;
 			path = ../../../../../stanislaw/Work/Pods/UIKitExtensions/UIKitExtensions;
@@ -292,6 +308,8 @@
 			isa = PBXGroup;
 			children = (
 				86C7CBDB175ED19400FE5CEB /* UIView_Extensions_Tests.m */,
+				86980006175F021200E1DEAE /* UIDevice_Extensions_Tests.m */,
+				86980009175F025500E1DEAE /* UIKitExtensions_Tests.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -430,6 +448,8 @@
 				86C7CBDE175ED1DF00FE5CEB /* UIView_Extensions_Tests.m in Sources */,
 				86C7CBE1175ED3AF00FE5CEB /* Clipping.m in Sources */,
 				86C7CBE4175ED3FE00FE5CEB /* Core.m in Sources */,
+				86980008175F023800E1DEAE /* UIDevice_Extensions_Tests.m in Sources */,
+				8698000B175F026A00E1DEAE /* UIKitExtensions_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

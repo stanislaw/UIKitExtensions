@@ -10,6 +10,10 @@
 
 @interface UIImage (Clipping)
 
+#ifdef _COREGRAPHICS_H
 - (UIImage *)imageClippedWithBounds:(CGRect)bounds;
+#else
+#pragma message("CoreGraphics framework not found in project, or not included in precompiled header. Image clipping functionality (UIImage/Clipping) will not be available.")
+#endif
 
 @end

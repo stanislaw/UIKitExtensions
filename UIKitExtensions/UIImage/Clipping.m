@@ -10,6 +10,7 @@
 
 @implementation UIImage (Clipping)
 
+#ifdef _COREGRAPHICS_H
 - (UIImage *)imageClippedWithBounds:(CGRect)bounds {
     UIImage *clippedImage;
 
@@ -21,5 +22,6 @@
 
     return clippedImage;
 }
+#endif
 
 @end
