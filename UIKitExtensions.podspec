@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   s.header_mappings_dir = 'UIKitExtensions'
 
   s.framework  = 'UIKit'
-
+  s.weak_frameworks = 'CoreGraphics'
   s.requires_arc = true
 end

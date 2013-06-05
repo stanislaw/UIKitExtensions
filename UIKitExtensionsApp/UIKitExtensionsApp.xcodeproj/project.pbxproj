@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8626A0DC175CF6F700D32F79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DB175CF6F700D32F79 /* UIKit.framework */; };
 		8626A0DE175CF6F700D32F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DD175CF6F700D32F79 /* Foundation.framework */; };
-		8626A0E0175CF6F700D32F79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DF175CF6F700D32F79 /* CoreGraphics.framework */; };
+		8626A0E0175CF6F700D32F79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DF175CF6F700D32F79 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		8626A0E6175CF6F700D32F79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8626A0E4175CF6F700D32F79 /* InfoPlist.strings */; };
 		8626A0E8175CF6F700D32F79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A0E7175CF6F700D32F79 /* main.m */; };
 		8626A0EC175CF6F700D32F79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A0EB175CF6F700D32F79 /* AppDelegate.m */; };
@@ -25,6 +25,7 @@
 		8626A10D175CF6F700D32F79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8626A10B175CF6F700D32F79 /* InfoPlist.strings */; };
 		86980008175F023800E1DEAE /* UIDevice_Extensions_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86980006175F021200E1DEAE /* UIDevice_Extensions_Tests.m */; };
 		8698000B175F026A00E1DEAE /* UIKitExtensions_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86980009175F025500E1DEAE /* UIKitExtensions_Tests.m */; };
+		86980014175F18C400E1DEAE /* Clipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBE0175ED3AE00FE5CEB /* Clipping.m */; };
 		86C7CBC8175ECE9900FE5CEB /* ScalingAndCropping.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBB2175ECE9900FE5CEB /* ScalingAndCropping.m */; };
 		86C7CBC9175ECE9900FE5CEB /* Sizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBB6175ECE9900FE5CEB /* Sizing.m */; };
 		86C7CBCA175ECE9900FE5CEB /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBBB175ECE9900FE5CEB /* Core.m */; };
@@ -36,8 +37,6 @@
 		86C7CBD7175ECF6100FE5CEB /* RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBD6175ECF6100FE5CEB /* RoundedCorners.m */; };
 		86C7CBD9175ED04800FE5CEB /* Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBD8175ED04800FE5CEB /* Rotation.m */; };
 		86C7CBDE175ED1DF00FE5CEB /* UIView_Extensions_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBDB175ED19400FE5CEB /* UIView_Extensions_Tests.m */; };
-		86C7CBE1175ED3AF00FE5CEB /* Clipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBE0175ED3AE00FE5CEB /* Clipping.m */; };
-		86C7CBE4175ED3FE00FE5CEB /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBE3175ED3FE00FE5CEB /* Core.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -450,6 +449,7 @@
 				86C7CBCF175ECE9900FE5CEB /* Sizing.m in Sources */,
 				86C7CBD7175ECF6100FE5CEB /* RoundedCorners.m in Sources */,
 				86C7CBD9175ED04800FE5CEB /* Rotation.m in Sources */,
+				86980014175F18C400E1DEAE /* Clipping.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,8 +458,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				86C7CBDE175ED1DF00FE5CEB /* UIView_Extensions_Tests.m in Sources */,
-				86C7CBE1175ED3AF00FE5CEB /* Clipping.m in Sources */,
-				86C7CBE4175ED3FE00FE5CEB /* Core.m in Sources */,
 				86980008175F023800E1DEAE /* UIDevice_Extensions_Tests.m in Sources */,
 				8698000B175F026A00E1DEAE /* UIKitExtensions_Tests.m in Sources */,
 			);
