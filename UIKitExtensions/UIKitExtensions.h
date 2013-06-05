@@ -2,6 +2,7 @@
 
 #import "UIHelpers.h"
 
+#import "UIApplication.h"
 #import "UIDevice.h"
 #import "UIImage.h"
 #import "UILabel.h"

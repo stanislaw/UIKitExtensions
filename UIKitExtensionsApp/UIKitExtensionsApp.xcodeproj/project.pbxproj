@@ -76,6 +76,8 @@
 		86980005175EFF1600E1DEAE /* UIDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDevice.h; sourceTree = "<group>"; };
 		86980006175F021200E1DEAE /* UIDevice_Extensions_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIDevice_Extensions_Tests.m; path = ../../../../../stanislaw/Work/Pods/UIKitExtensions/Tests/UIDevice_Extensions_Tests.m; sourceTree = "<group>"; };
 		86980009175F025500E1DEAE /* UIKitExtensions_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIKitExtensions_Tests.m; path = ../../../../../stanislaw/Work/Pods/UIKitExtensions/Tests/UIKitExtensions_Tests.m; sourceTree = "<group>"; };
+		86980010175F03A000E1DEAE /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		86980013175F044100E1DEAE /* UIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIApplication.h; sourceTree = "<group>"; };
 		8698FFFD175EDAEE00E1DEAE /* UIHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelpers.h; sourceTree = "<group>"; };
 		86C7CBB1175ECE9900FE5CEB /* ScalingAndCropping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScalingAndCropping.h; sourceTree = "<group>"; };
 		86C7CBB2175ECE9900FE5CEB /* ScalingAndCropping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScalingAndCropping.m; sourceTree = "<group>"; };
@@ -222,9 +224,18 @@
 			path = UIDevice;
 			sourceTree = "<group>";
 		};
+		8698000F175F03A000E1DEAE /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				86980010175F03A000E1DEAE /* Logging.h */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
 		86C7CBAF175ECE9900FE5CEB /* UIKitExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				8698000F175F03A000E1DEAE /* UIApplication */,
 				86980001175EFF0800E1DEAE /* UIDevice */,
 				86C7CBB0175ECE9900FE5CEB /* UIImage */,
 				86C7CBB4175ECE9900FE5CEB /* UILabel */,
@@ -240,6 +251,7 @@
 				8698FFFD175EDAEE00E1DEAE /* UIHelpers.h */,
 				86C7CBB3175ECE9900FE5CEB /* UIKitExtensions.h */,
 				86980005175EFF1600E1DEAE /* UIDevice.h */,
+				86980013175F044100E1DEAE /* UIApplication.h */,
 			);
 			name = UIKitExtensions;
 			path = ../../../../../stanislaw/Work/Pods/UIKitExtensions/UIKitExtensions;
