@@ -14,23 +14,25 @@ static void *dynamicPropertiesKey;
 @implementation UIView (DynamicProperties)
 
 - (instancetype)defineDynamicPropertiesWithBlock:(blockWithObject)viewPropertiesBlock {
-    self.dynamicPropertiesBlock = viewPropertiesBlock;
+    self.dynamicProperties = viewPropertiesBlock;
     return self;
 }
 
-- (void)applyDynamicProperties {
-    if (self.dynamicPropertiesBlock == nil) {
+- (instancetype)applyDynamicProperties {
+    if (self.dynamicProperties == nil) {
         @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:@"dynamic properties should be defined to be run" userInfo:nil];
     }
     
-    self.dynamicPropertiesBlock(self);
+    self.dynamicProperties(self);
+
+    return self;
 }
 
-- (blockWithObject)dynamicPropertiesBlock {
+- (blockWithObject)dynamicProperties {
     return objc_getAssociatedObject(self, &dynamicPropertiesKey);
 }
 
-- (void)setDynamicPropertiesBlock:(blockWithObject)dynamicPropertiesBlock {
+- (void)setDynamicProperties:(blockWithObject)dynamicPropertiesBlock {
     objc_setAssociatedObject(self, &dynamicPropertiesKey, [dynamicPropertiesBlock copy], OBJC_ASSOCIATION_RETAIN);
 }
 

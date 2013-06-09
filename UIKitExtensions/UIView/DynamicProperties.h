@@ -12,9 +12,9 @@ typedef void (^blockWithObject)(id object);
 
 @interface UIView (DynamicProperties)
 
-@property (copy) blockWithObject dynamicPropertiesBlock;
+@property (copy) blockWithObject dynamicProperties;
 
 - (instancetype)defineDynamicPropertiesWithBlock:(blockWithObject)viewPropertiesBlock;
-- (void)applyDynamicProperties;
+- (instancetype)applyDynamicProperties;
 
 @end
