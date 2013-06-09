@@ -1,0 +1,5 @@
+platform :ios
+
+target :UIKitExtensionsAppTests, :exclusive => true do
+  pod 'Kiwi'
+end
