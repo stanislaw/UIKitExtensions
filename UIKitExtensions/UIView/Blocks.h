@@ -10,10 +10,10 @@
 
 @interface UIView (Blocks)
 
-- (id)initWithBlock:(void(^)(id))block;
+- (instancetype)initWithBlock:(void(^)(id))block;
 
-- (id)initWithFrame:(CGRect)frame andBlock:(void(^)(id))block;
+- (instancetype)initWithFrame:(CGRect)frame andBlock:(void(^)(id))block;
 
-- (id)modifyWithBlock:(void(^)(id))block;
+- (instancetype)performBlock:(void(^)(id))block;
 
 @end

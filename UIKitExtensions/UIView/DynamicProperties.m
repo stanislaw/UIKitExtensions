@@ -13,7 +13,7 @@ static void *dynamicPropertiesKey;
 
 @implementation UIView (DynamicProperties)
 
-- (UIView *)defineDynamicPropertiesWithBlock:(blockWithObject)viewPropertiesBlock {
+- (instancetype)defineDynamicPropertiesWithBlock:(blockWithObject)viewPropertiesBlock {
     self.dynamicPropertiesBlock = viewPropertiesBlock;
     return self;
 }

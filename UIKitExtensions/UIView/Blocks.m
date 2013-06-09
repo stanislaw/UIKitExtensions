@@ -10,7 +10,7 @@
 
 @implementation UIView (Blocks)
 
-- (id)initWithBlock:(void(^)(id))block {
+- (instancetype)initWithBlock:(void(^)(id))block {
     self = [self initWithFrame:CGRectZero];
 
     if (self) {
@@ -20,7 +20,7 @@
     return self;
 }
 
-- (id)initWithFrame:(CGRect)frame andBlock:(void(^)(id))block {
+- (instancetype)initWithFrame:(CGRect)frame andBlock:(void(^)(id))block {
     self = [self initWithFrame:frame];
 
     if (self) {
@@ -30,7 +30,7 @@
     return self;
 }
 
-- (id)modifyWithBlock:(void(^)(id))block {
+- (instancetype)performBlock:(void(^)(id))block {
     if (block) block(self);
 
     return self;

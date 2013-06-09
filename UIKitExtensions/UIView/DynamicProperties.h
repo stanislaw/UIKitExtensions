@@ -14,7 +14,7 @@ typedef void (^blockWithObject)(id object);
 
 @property (copy) blockWithObject dynamicPropertiesBlock;
 
-- (UIView *)defineDynamicPropertiesWithBlock:(blockWithObject)viewPropertiesBlock;
+- (instancetype)defineDynamicPropertiesWithBlock:(blockWithObject)viewPropertiesBlock;
 - (void)applyDynamicProperties;
 
 @end
