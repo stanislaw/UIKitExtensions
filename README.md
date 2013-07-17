@@ -55,3 +55,21 @@ Just browse through the `UIKitExtensions/` folder contents - it is pretty clear,
 The project is in a setup phase. If you liked the idea, feel free to suggest your extensions that you use in your daily programming routine - I will be happy to merge any code that address the scope of this general purpose extensions framework.
 
 More documentation is coming.
+
+## Installation
+
+The recommended way is to install via Cocoapods:
+
+Add into your Podfile:
+
+```ruby
+pod 'UIKitExtensions', :git => 'https://github.com/stanislaw/FoundationExtensions'
+```
+
+And run 
+
+```
+pod update
+```
+
+or you can just clone `UIKitExtensions` and add `UIKitExtensions/` folder to your project (though author have not performed any tests for if the paths like `UIKitExtensions/UIView/Sizing.h` would be resolved correctly without the magic power of Cocoapods).
