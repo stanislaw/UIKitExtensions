@@ -63,7 +63,7 @@ The recommended way is to install via Cocoapods:
 Add into your Podfile:
 
 ```ruby
-pod 'UIKitExtensions', :git => 'https://github.com/stanislaw/FoundationExtensions'
+pod 'UIKitExtensions', :git => 'https://github.com/stanislaw/UIKitExtensions'
 ```
 
 And run 
