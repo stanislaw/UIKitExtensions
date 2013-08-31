@@ -10,6 +10,6 @@
 
 @interface UITextView (Core)
 
-- (CGRect)rectForStringInRange:(CFRange)stringRange;
+- (CGRect)rectForStringInRange:(NSRange)stringRange;
 
 @end
