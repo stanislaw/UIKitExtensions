@@ -16,4 +16,8 @@
     }
 }
 
+- (CGPoint)firstCharacterOrigin {
+    return [self rectForStringInRange:NSMakeRange(0, 1)].origin;
+}
+
 @end

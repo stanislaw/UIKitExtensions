@@ -11,5 +11,6 @@
 @interface UITextView (Core)
 
 - (CGRect)rectForStringInRange:(NSRange)stringRange;
+@property (readonly) CGPoint firstCharacterOrigin;
 
 @end
