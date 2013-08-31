@@ -9,7 +9,7 @@
 #import "DynamicProperties.h"
 #import <objc/runtime.h>
 
-static void *dynamicPropertiesKey;
+static void *dynamicPropertiesKey = &dynamicPropertiesKey;
 
 @implementation UIView (DynamicProperties)
 

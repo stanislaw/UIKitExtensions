@@ -1,6 +1,6 @@
 #import "Core.h"
 
-@implementation UITextView (Extensions)
+@implementation UITextView (Core)
 
 - (CGRect)rectForStringInRange:(CFRange)stringRange {
     UITextPosition *begin = [self positionFromPosition:self.beginningOfDocument offset:stringRange.location];
