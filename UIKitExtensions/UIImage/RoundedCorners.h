@@ -10,6 +10,6 @@
 
 @interface UIImage (RoundedCorners)
 
-- (UIImage *)applyRoundedCorners:(CGFloat)radius;
+- (UIImage *)applyRoundedCorners:(UIRectCorner)cornersToRoundify radii:(CGSize)radii;
 
 @end

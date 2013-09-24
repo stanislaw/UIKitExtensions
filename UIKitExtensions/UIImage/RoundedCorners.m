@@ -10,19 +10,18 @@
 
 @implementation UIImage (RoundedCorners)
 
-- (UIImage *)applyRoundedCorners:(CGFloat)radius {
+- (UIImage *)applyRoundedCorners:(UIRectCorner)cornersToRoundify radii:(CGSize)radii {
     UIImage *newImage;
 
     CGRect imageFrame = (CGRect){0, 0, self.size.width, self.size.height};
 
     UIGraphicsBeginImageContextWithOptions(imageFrame.size, NO, 0.0);
 
-    [[UIBezierPath bezierPathWithRoundedRect:imageFrame
-                                cornerRadius:radius] addClip];
+        [[UIBezierPath bezierPathWithRoundedRect:imageFrame byRoundingCorners:cornersToRoundify cornerRadii:radii] addClip];
 
-    [self drawInRect:imageFrame];
+        [self drawInRect:imageFrame];
 
-    newImage = UIGraphicsGetImageFromCurrentImageContext();
+        newImage = UIGraphicsGetImageFromCurrentImageContext();
 
     UIGraphicsEndImageContext();
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		39B998351ED74F2AB39E0088 /* libPods-UIKitExtensionsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B03DDEA679E74B459FB04A0E /* libPods-UIKitExtensionsAppTests.a */; };
+		8619E63917F225D50044D201 /* RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 8619E63817F225D50044D201 /* RoundedCorners.m */; };
 		8626A0DC175CF6F700D32F79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DB175CF6F700D32F79 /* UIKit.framework */; };
 		8626A0DE175CF6F700D32F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DD175CF6F700D32F79 /* Foundation.framework */; };
 		8626A0E0175CF6F700D32F79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DF175CF6F700D32F79 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -51,6 +52,8 @@
 
 /* Begin PBXFileReference section */
 		49A0D19FAA37468B8B8C7D49 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8619E63717F225D50044D201 /* RoundedCorners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedCorners.h; sourceTree = "<group>"; };
+		8619E63817F225D50044D201 /* RoundedCorners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedCorners.m; sourceTree = "<group>"; };
 		8626A0D8175CF6F700D32F79 /* UIKitExtensionsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitExtensionsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8626A0DB175CF6F700D32F79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8626A0DD175CF6F700D32F79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -332,6 +335,8 @@
 				86C7CBC7175ECE9900FE5CEB /* Sizing.m */,
 				86C7CBB7175ECE9900FE5CEB /* Rotation.h */,
 				86C7CBD8175ED04800FE5CEB /* Rotation.m */,
+				8619E63717F225D50044D201 /* RoundedCorners.h */,
+				8619E63817F225D50044D201 /* RoundedCorners.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -521,6 +526,7 @@
 				86C7CBC8175ECE9900FE5CEB /* ScalingAndCropping.m in Sources */,
 				86C7CBC9175ECE9900FE5CEB /* Sizing.m in Sources */,
 				86C7CBCA175ECE9900FE5CEB /* Core.m in Sources */,
+				8619E63917F225D50044D201 /* RoundedCorners.m in Sources */,
 				86C7CBCB175ECE9900FE5CEB /* Core.m in Sources */,
 				86C7CBCC175ECE9900FE5CEB /* DynamicProperties.m in Sources */,
 				86C7CBCD175ECE9900FE5CEB /* Blocks.m in Sources */,

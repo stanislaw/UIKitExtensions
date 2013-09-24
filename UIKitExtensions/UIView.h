@@ -4,4 +4,5 @@
 #import "UIView/DynamicProperties.h"
 #import "UIView/Nulling.h"
 #import "UIView/Rotation.h"
+#import "UIView/RoundedCorners.h"
 #import "UIView/Sizing.h"
