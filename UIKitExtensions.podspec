@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source_files = 'UIKitExtensions/**/*.{h,m}'
   s.header_mappings_dir = 'UIKitExtensions'
 
-  s.framework  = 'UIKit'
+  s.framework  = 'UIKit', 'QuartzCore'
   s.weak_frameworks = 'CoreGraphics'
   s.requires_arc = true
 end
