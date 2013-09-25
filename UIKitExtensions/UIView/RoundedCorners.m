@@ -8,6 +8,8 @@
 
 #import "RoundedCorners.h"
 
+#import <QuartzCore/QuartzCore.h>
+
 @implementation UIView (RoundedCorners)
 
 - (void)applyRoundedCorners:(UIRectCorner)cornersToRoundify radii:(CGSize)radii {
