@@ -19,3 +19,13 @@ static inline CGRect iOS6ApplicationBounds() {
 
     return applicationBounds;
 }
+
+static inline CGRect iOS7ApplicationBounds() {
+    CGRect applicationBounds = UIScreen.mainScreen.bounds;
+
+    if (UIInterfaceOrientationIsLandscape(UIApplication.sharedApplication.statusBarOrientation)) {
+        applicationBounds.size = CGSizeMake(applicationBounds.size.height, applicationBounds.size.width);
+    }
+
+    return applicationBounds;
+}
