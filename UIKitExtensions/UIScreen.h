@@ -1,31 +1,21 @@
 #import <UIKit/UIKit.h>
 
 static inline CGRect applicationFrame() {
-    return [[UIScreen mainScreen] applicationFrame];;
+    return UIScreen.mainScreen.applicationFrame;
 }
 
 static inline CGRect screenBounds() {
-    return [UIScreen mainScreen].bounds;
+    return UIScreen.mainScreen.bounds;
 }
 
-static inline CGRect screenFrame() {
-    CGRect screenFrame = [[UIScreen mainScreen] applicationFrame];
-
-    screenFrame.origin = CGPointZero;
+static inline CGRect iOS6ApplicationBounds() {
+    CGRect applicationBounds = UIScreen.mainScreen.bounds;
 
     if (UIInterfaceOrientationIsLandscape(UIApplication.sharedApplication.statusBarOrientation)) {
-        CGFloat width = screenFrame.size.width;
-        screenFrame.size.width = screenFrame.size.height;
-        screenFrame.size.height = width;
+        applicationBounds.size = CGSizeMake(applicationBounds.size.height, applicationBounds.size.width);
     }
 
-    return screenFrame;
-}
+    applicationBounds.size.height -= 20;
 
-static inline CGRect portraitScreenFrame() {
-    CGRect screenFrame = [[UIScreen mainScreen] applicationFrame];
-
-    screenFrame.origin = CGPointZero;
-
-    return screenFrame;
+    return applicationBounds;
 }
