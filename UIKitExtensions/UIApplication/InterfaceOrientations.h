@@ -8,6 +8,14 @@
 
 #import <UIKit/UIApplication.h>
 
+static inline UIInterfaceOrientation interfaceOrientation() {
+    return UIApplication.sharedApplication.statusBarOrientation;
+}
+
+static inline BOOL isPortraitOrientation() {
+    return UIInterfaceOrientationIsPortrait(interfaceOrientation());
+}
+
 static inline NSString * NSStringFromUIInterfaceOrientation(UIInterfaceOrientation interfaceOrientation) {
     NSString *orientationString;
 

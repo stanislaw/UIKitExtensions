@@ -1,3 +1,3 @@
 #import <UIKit/UIApplication.h>
 
-#import "UIApplication/Logging.h"
+#import "UIApplication/InterfaceOrientations.h"
