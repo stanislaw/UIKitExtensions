@@ -8,6 +8,8 @@
 
 #import "RoundedCorners.h"
 
+#ifdef QUARTZCORE_H_
+
 #import <QuartzCore/QuartzCore.h>
 
 @implementation UIView (RoundedCorners)
@@ -25,3 +27,5 @@
 }
 
 @end
+
+#endif
