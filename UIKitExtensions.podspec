@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UIKitExtensions"
-  s.version      = "0.0.18"
+  s.version      = "0.0.19"
   s.summary      = "A collection of extensions for UIKit framework."
 
   # s.description  = <<-DESC
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source_files = 'UIKitExtensions/**/*.{h,m}'
   s.header_mappings_dir = 'UIKitExtensions'
 
-  s.frameworks  = 'UIKit'
-  s.weak_frameworks = 'CoreGraphics', 'QuartzCore'
+  s.frameworks  = 'UIKit, QuartzCore'
+  s.weak_frameworks = 'CoreGraphics'
   s.requires_arc = true
 end
