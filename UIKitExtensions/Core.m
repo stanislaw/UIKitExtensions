@@ -24,4 +24,26 @@
     return keyboardSize;
 }
 
+- (CGRect)iOS6ApplicationBounds {
+    CGRect applicationBounds = UIScreen.mainScreen.bounds;
+
+    if (UIInterfaceOrientationIsLandscape(UIApplication.sharedApplication.statusBarOrientation)) {
+        applicationBounds.size = CGSizeMake(applicationBounds.size.height, applicationBounds.size.width);
+    }
+
+    applicationBounds.size.height -= 20;
+
+    return applicationBounds;
+}
+
+- (CGRect)iOS7ApplicationBounds {
+    CGRect applicationBounds = UIScreen.mainScreen.bounds;
+
+    if (UIInterfaceOrientationIsLandscape(UIApplication.sharedApplication.statusBarOrientation)) {
+        applicationBounds.size = CGSizeMake(applicationBounds.size.height, applicationBounds.size.width);
+    }
+
+    return applicationBounds;
+}
+
 @end

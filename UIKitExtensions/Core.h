@@ -9,6 +9,15 @@
 #import <UIKit/UIKit.h>
 
 
+@interface UIScreen (Core)
+
+@property (readonly) CGRect iOS6ApplicationBounds;
+@property (readonly) CGRect iOS7ApplicationBounds;
+
+@property (readonly) CGSize keyboardSize;
+
+@end
+
 static inline CGRect applicationFrame() {
     return UIScreen.mainScreen.applicationFrame;
 }
@@ -18,29 +27,13 @@ static inline CGRect screenBounds() {
 }
 
 static inline CGRect iOS6ApplicationBounds() {
-    CGRect applicationBounds = UIScreen.mainScreen.bounds;
-
-    if (UIInterfaceOrientationIsLandscape(UIApplication.sharedApplication.statusBarOrientation)) {
-        applicationBounds.size = CGSizeMake(applicationBounds.size.height, applicationBounds.size.width);
-    }
-
-    applicationBounds.size.height -= 20;
-
-    return applicationBounds;
+    return UIScreen.mainScreen.iOS6ApplicationBounds;
 }
 
 static inline CGRect iOS7ApplicationBounds() {
-    CGRect applicationBounds = UIScreen.mainScreen.bounds;
-
-    if (UIInterfaceOrientationIsLandscape(UIApplication.sharedApplication.statusBarOrientation)) {
-        applicationBounds.size = CGSizeMake(applicationBounds.size.height, applicationBounds.size.width);
-    }
-
-    return applicationBounds;
+    return UIScreen.mainScreen.iOS7ApplicationBounds;
 }
 
-@interface UIScreen (Core)
-
-- (CGSize)keyboardSize;
-
-@end
+static inline CGSize keyboardSize() {
+    return UIScreen.mainScreen.keyboardSize;
+}
