@@ -74,6 +74,19 @@ pod update
 
 or you can just clone `UIKitExtensions` and add `UIKitExtensions/` folder to your project (though author have not performed any tests for if the paths like `UIKitExtensions/UIView/Sizing.h` would be resolved correctly without the magic power of Cocoapods).
 
+## Credits
+
+Thanks to the following projects here on Github:
+
+* [CKUITools](https://github.com/genericspecific/CKUITools)
+    * UIView/Positioning: `-[UIView centerIn...SuperView]` methods [Inspiration] 
+    * UIColor/Core: `+[UIColor colorWithHexRGB:alpha:]` [Taken directly]
+    * UIScreen/Core: `-[UIScreen keyboardSize]` [Taken directly]
+* [FrameAccessor](https://github.com/AlexDenisov/FrameAccessor)
+    * UIView/Framing [Inspiration]
+* [Stackoverflow](http://stackoverflow.com/)
+    * ...
+
 ## Similar tools
 
 * [CKUITools](https://github.com/genericspecific/CKUITools) - A collection of Categories and other tools designed to make a developer's life easier.

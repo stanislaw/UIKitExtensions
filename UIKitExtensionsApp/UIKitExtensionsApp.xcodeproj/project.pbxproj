@@ -12,6 +12,7 @@
 		860EDB2617FDDEC8001BEEEE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860EDB2517FDDEC8001BEEEE /* QuartzCore.framework */; };
 		860EDB2717FDDECF001BEEEE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860EDB2517FDDEC8001BEEEE /* QuartzCore.framework */; };
 		860EDB2B17FDF8C0001BEEEE /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 860EDB2A17FDF8C0001BEEEE /* Core.m */; };
+		860EDB3117FE292F001BEEEE /* Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 860EDB3017FE292F001BEEEE /* Positioning.m */; };
 		8619E63917F225D50044D201 /* RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 8619E63817F225D50044D201 /* RoundedCorners.m */; };
 		8626A0DC175CF6F700D32F79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DB175CF6F700D32F79 /* UIKit.framework */; };
 		8626A0DE175CF6F700D32F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DD175CF6F700D32F79 /* Foundation.framework */; };
@@ -62,6 +63,8 @@
 		860EDB2917FDF8C0001BEEEE /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Core.h; path = UIColor/Core.h; sourceTree = "<group>"; };
 		860EDB2A17FDF8C0001BEEEE /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Core.m; path = UIColor/Core.m; sourceTree = "<group>"; };
 		860EDB2C17FDF8D2001BEEEE /* UIColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIColor.h; sourceTree = "<group>"; };
+		860EDB2F17FE292F001BEEEE /* Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Positioning.h; sourceTree = "<group>"; };
+		860EDB3017FE292F001BEEEE /* Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Positioning.m; sourceTree = "<group>"; };
 		8619E63717F225D50044D201 /* RoundedCorners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedCorners.h; sourceTree = "<group>"; };
 		8619E63817F225D50044D201 /* RoundedCorners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedCorners.m; sourceTree = "<group>"; };
 		8626A0D8175CF6F700D32F79 /* UIKitExtensionsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitExtensionsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -371,6 +374,8 @@
 				86C7CBD8175ED04800FE5CEB /* Rotation.m */,
 				8619E63717F225D50044D201 /* RoundedCorners.h */,
 				8619E63817F225D50044D201 /* RoundedCorners.m */,
+				860EDB2F17FE292F001BEEEE /* Positioning.h */,
+				860EDB3017FE292F001BEEEE /* Positioning.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -558,6 +563,7 @@
 				860EDB2B17FDF8C0001BEEEE /* Core.m in Sources */,
 				8626A0EC175CF6F700D32F79 /* AppDelegate.m in Sources */,
 				8626A0FB175CF6F700D32F79 /* ViewController.m in Sources */,
+				860EDB3117FE292F001BEEEE /* Positioning.m in Sources */,
 				86C7CBC8175ECE9900FE5CEB /* ScalingAndCropping.m in Sources */,
 				86C7CBC9175ECE9900FE5CEB /* Sizing.m in Sources */,
 				86C7CBCA175ECE9900FE5CEB /* Core.m in Sources */,
