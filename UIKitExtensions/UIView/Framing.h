@@ -3,7 +3,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (Sizing)
+@interface UIView (Framing)
 
 @property CGPoint origin;
 @property CGSize size;

@@ -38,7 +38,7 @@
 		86C7CBCC175ECE9900FE5CEB /* DynamicProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC1175ECE9900FE5CEB /* DynamicProperties.m */; };
 		86C7CBCD175ECE9900FE5CEB /* Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC3175ECE9900FE5CEB /* Blocks.m */; };
 		86C7CBCE175ECE9900FE5CEB /* Nulling.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC5175ECE9900FE5CEB /* Nulling.m */; };
-		86C7CBCF175ECE9900FE5CEB /* Sizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC7175ECE9900FE5CEB /* Sizing.m */; };
+		86C7CBCF175ECE9900FE5CEB /* Framing.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC7175ECE9900FE5CEB /* Framing.m */; };
 		86C7CBD7175ECF6100FE5CEB /* RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBD6175ECF6100FE5CEB /* RoundedCorners.m */; };
 		86C7CBD9175ED04800FE5CEB /* Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBD8175ED04800FE5CEB /* Rotation.m */; };
 /* End PBXBuildFile section */
@@ -107,8 +107,8 @@
 		86C7CBC3175ECE9900FE5CEB /* Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blocks.m; sourceTree = "<group>"; };
 		86C7CBC4175ECE9900FE5CEB /* Nulling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nulling.h; sourceTree = "<group>"; };
 		86C7CBC5175ECE9900FE5CEB /* Nulling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nulling.m; sourceTree = "<group>"; };
-		86C7CBC6175ECE9900FE5CEB /* Sizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sizing.h; sourceTree = "<group>"; };
-		86C7CBC7175ECE9900FE5CEB /* Sizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sizing.m; sourceTree = "<group>"; };
+		86C7CBC6175ECE9900FE5CEB /* Framing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Framing.h; sourceTree = "<group>"; };
+		86C7CBC7175ECE9900FE5CEB /* Framing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Framing.m; sourceTree = "<group>"; };
 		86C7CBD0175ECEE800FE5CEB /* UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView.h; sourceTree = "<group>"; };
 		86C7CBD1175ECEF500FE5CEB /* UITextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextView.h; sourceTree = "<group>"; };
 		86C7CBD2175ECF0000FE5CEB /* UIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScrollView.h; sourceTree = "<group>"; };
@@ -350,8 +350,8 @@
 				86C7CBC3175ECE9900FE5CEB /* Blocks.m */,
 				86C7CBC4175ECE9900FE5CEB /* Nulling.h */,
 				86C7CBC5175ECE9900FE5CEB /* Nulling.m */,
-				86C7CBC6175ECE9900FE5CEB /* Sizing.h */,
-				86C7CBC7175ECE9900FE5CEB /* Sizing.m */,
+				86C7CBC6175ECE9900FE5CEB /* Framing.h */,
+				86C7CBC7175ECE9900FE5CEB /* Framing.m */,
 				86C7CBB7175ECE9900FE5CEB /* Rotation.h */,
 				86C7CBD8175ED04800FE5CEB /* Rotation.m */,
 				8619E63717F225D50044D201 /* RoundedCorners.h */,
@@ -550,7 +550,7 @@
 				86C7CBCC175ECE9900FE5CEB /* DynamicProperties.m in Sources */,
 				86C7CBCD175ECE9900FE5CEB /* Blocks.m in Sources */,
 				86C7CBCE175ECE9900FE5CEB /* Nulling.m in Sources */,
-				86C7CBCF175ECE9900FE5CEB /* Sizing.m in Sources */,
+				86C7CBCF175ECE9900FE5CEB /* Framing.m in Sources */,
 				860EDB2417FDDE02001BEEEE /* Core.m in Sources */,
 				86C7CBD7175ECF6100FE5CEB /* RoundedCorners.m in Sources */,
 				86C7CBD9175ED04800FE5CEB /* Rotation.m in Sources */,

@@ -8,7 +8,7 @@
 
 #import "Sizing.h"
 
-@implementation UIView (Sizing)
+@implementation UIView (Framing)
 
 - (CGPoint)origin {
     return self.frame.origin;
