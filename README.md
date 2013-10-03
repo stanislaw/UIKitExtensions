@@ -79,11 +79,11 @@ or you can just clone `UIKitExtensions` and add `UIKitExtensions/` folder to you
 Thanks to the following projects here on Github:
 
 * [CKUITools](https://github.com/genericspecific/CKUITools)
-    * `UIView/Positioning`: -[UIView centerIn...SuperView] methods [Inspiration] 
-    * `UIColor/Core`: +[UIColor colorWithHexRGB:alpha:] [Taken directly]
-    * `UIScreen/Core`: -[UIScreen keyboardSize] [Taken directly]
+    * `UIView/Positioning`: `-[UIView centerIn...SuperView]` methods [Inspiration] 
+    * `UIColor/Core`: `+[UIColor colorWithHexRGB:alpha:]` [Taken directly]
+    * `UIScreen/Core`: `-[UIScreen keyboardSize]` [Taken directly]
 * [FrameAccessor](https://github.com/AlexDenisov/FrameAccessor)
-    * UIView/Framing [Inspiration]
+    * `UIView/Framing`: the whole pack [Inspiration]
 * [Stackoverflow](http://stackoverflow.com/)
     * ...
 
