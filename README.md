@@ -73,3 +73,12 @@ pod update
 ```
 
 or you can just clone `UIKitExtensions` and add `UIKitExtensions/` folder to your project (though author have not performed any tests for if the paths like `UIKitExtensions/UIView/Sizing.h` would be resolved correctly without the magic power of Cocoapods).
+
+## Similar tools
+
+* [CKUITools](https://github.com/genericspecific/CKUITools) - A collection of Categories and other tools designed to make a developer's life easier.
+
+## Copyright
+
+Not yet
+
