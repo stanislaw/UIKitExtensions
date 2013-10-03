@@ -79,19 +79,25 @@ or you can just clone `UIKitExtensions` and add `UIKitExtensions/` folder to you
 Thanks to the following projects here on Github:
 
 * [CKUITools](https://github.com/genericspecific/CKUITools)
-    * [UIView/Positioning](https://github.com/stanislaw/UIKitExtensions/blob/master/UIKitExtensions/UIView/Positioning.h): `-[UIView centerIn...SuperView]` methods [Inspiration] 
-    * [UIColor/Core](https://github.com/stanislaw/UIKitExtensions/blob/master/UIKitExtensions/UIColor/Core.h): `+[UIColor colorWithHexRGB:alpha:]` [Taken directly]
-    * [UIScreen/Core](https://github.com/stanislaw/UIKitExtensions/blob/master/UIKitExtensions/UIScreen/Core.h): `-[UIScreen keyboardSize]` [Taken directly]
+    * UIView/Positioning: `-[UIView centerIn...SuperView]` methods [Inspiration] 
+    * UIColor/Core: `+[UIColor colorWithHexRGB:alpha:]` [Taken directly]
+    * UIScreen/Core: `-[UIScreen keyboardSize]` [Taken directly]
 * [FrameAccessor](https://github.com/AlexDenisov/FrameAccessor)
-    * [UIView/Framing](https://github.com/stanislaw/UIKitExtensions/blob/master/UIKitExtensions/UIView/Framing.h): the whole pack [Inspiration]
+    * UIView/Framing: the whole pack [Inspiration]
 * [Stackoverflow](http://stackoverflow.com/)
-    * [UIColor/Core](https://github.com/stanislaw/UIKitExtensions/blob/master/UIKitExtensions/UIColor/Core.h):
-http://stackoverflow.com/questions/1560081/how-can-i-create-a-uicolor-from-a-hex-string [Taken directly]
+    * UIColor/Core: creating colors from hex strings http://stackoverflow.com/questions/1560081/how-can-i-create-a-uicolor-from-a-hex-string [Taken directly]
+    * UIView/RoundedCorners: http://stackoverflow.com/questions/4847163/round-two-corners-in-uiview [Taken directly]
 
 
 ## Similar tools
 
-* [CKUITools](https://github.com/genericspecific/CKUITools) - A collection of Categories and other tools designed to make a developer's life easier.
+* [CKUITools](https://github.com/genericspecific/CKUITools) 
+
+> A collection of Categories and other tools designed to make a developer's life easier.
+
+* [FrameAccessor](https://github.com/AlexDenisov/FrameAccessor)
+
+> Easy access to view's frame.
 
 ## Copyright
 
