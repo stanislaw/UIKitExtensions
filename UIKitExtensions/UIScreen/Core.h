@@ -11,6 +11,7 @@
 
 @interface UIScreen (Core)
 
+- (CGRect)screenBoundsForOrientation:(UIInterfaceOrientation)interfaceOrientation;
 @property (readonly) CGRect iOS6ApplicationBounds;
 @property (readonly) CGRect iOS7ApplicationBounds;
 

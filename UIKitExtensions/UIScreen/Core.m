@@ -13,9 +13,11 @@
 - (CGSize)keyboardSize {
     BOOL iPad = UIDevice.currentDevice.userInterfaceIdiom == UIUserInterfaceIdiomPad;
 
-    CGSize keyboardSize = UIScreen.mainScreen.bounds.size;
+    UIInterfaceOrientation currentInterfaceOrientation = UIApplication.sharedApplication.statusBarOrientation;
 
-    if (UIDeviceOrientationIsPortrait(UIApplication.sharedApplication.statusBarOrientation)) {
+    CGSize keyboardSize = [self screenBoundsForOrientation:currentInterfaceOrientation].size;
+
+    if (UIDeviceOrientationIsPortrait(currentInterfaceOrientation)) {
         keyboardSize.height = iPad ? 264 : 216;
     } else {
         keyboardSize.height = iPad ? 352 : 162;
@@ -24,12 +26,18 @@
     return keyboardSize;
 }
 
-- (CGRect)iOS6ApplicationBounds {
-    CGRect applicationBounds = UIScreen.mainScreen.bounds;
+- (CGRect)screenBoundsForOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    CGRect screenBounds = self.bounds;
 
-    if (UIInterfaceOrientationIsLandscape(UIApplication.sharedApplication.statusBarOrientation)) {
-        applicationBounds.size = CGSizeMake(applicationBounds.size.height, applicationBounds.size.width);
+    if (UIInterfaceOrientationIsLandscape(interfaceOrientation)) {
+        screenBounds.size = CGSizeMake(screenBounds.size.height, screenBounds.size.width);
     }
+
+    return screenBounds;
+}
+
+- (CGRect)iOS6ApplicationBounds {
+    CGRect applicationBounds = [self screenBoundsForOrientation:UIApplication.sharedApplication.statusBarOrientation];
 
     applicationBounds.size.height -= 20;
 
@@ -37,13 +45,7 @@
 }
 
 - (CGRect)iOS7ApplicationBounds {
-    CGRect applicationBounds = UIScreen.mainScreen.bounds;
-
-    if (UIInterfaceOrientationIsLandscape(UIApplication.sharedApplication.statusBarOrientation)) {
-        applicationBounds.size = CGSizeMake(applicationBounds.size.height, applicationBounds.size.width);
-    }
-
-    return applicationBounds;
+    return [self screenBoundsForOrientation:UIApplication.sharedApplication.statusBarOrientation];
 }
 
 @end
