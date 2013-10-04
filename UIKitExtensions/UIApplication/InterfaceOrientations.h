@@ -1,10 +1,9 @@
+// UIKitExtensions
 //
-//  UIApplication+Logging.h
-//  UIKitExtensionsApp
+// UIKitExtensions/UIApplication/InterfaceOrientations.h
 //
-//  Created by Stanislaw Pankevich on 6/5/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import <UIKit/UIApplication.h>
 

@@ -1,9 +1,9 @@
+// UIKitExtensions
 //
-//  UIScrollView+Extensions.m
+// UIKitExtensions/UIScrollView/Core.m
 //
-//  Created by Stanislaw Pankevich on 5/10/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "Core.h"
 

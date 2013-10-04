@@ -1,10 +1,9 @@
+// UIKitExtensions
 //
-//  UIColor+Core.m
-//  UIKitExtensionsApp
+// UIKitExtensions/UIColor/Core.m
 //
-//  Created by Stanislaw Pankevich on 10/3/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "Core.h"
 

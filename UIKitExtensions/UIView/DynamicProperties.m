@@ -1,9 +1,9 @@
+// UIKitExtensions
 //
-//  UIView+Rotation.m
+// UIKitExtensions/UIView/DynamicProperties.m
 //
-//  Created by Stanislaw Pankevich on 1/15/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "DynamicProperties.h"
 #import <objc/runtime.h>

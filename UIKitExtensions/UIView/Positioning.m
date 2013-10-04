@@ -1,10 +1,9 @@
+// UIKitExtensions
 //
-//  UIView+Positioning.m
-//  UIKitExtensionsApp
+// UIKitExtensions/UIView/Positioning.m
 //
-//  Created by Stanislaw Pankevich on 10/4/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "Positioning.h"
 #import "Framing.h"

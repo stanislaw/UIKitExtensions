@@ -1,9 +1,12 @@
+// UIKitExtensions
 //
-//  UIKitExtensions/UIView/Framing.m
+// UIKitExtensions/UIView/Framing.m
 //
-//  Created by Stanislaw Pankevich on 5/10/13.
-//  Copyright (c) 2013 All rights reserved.
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 //
+// Inspired by FrameAccessor
+// https://github.com/AlexDenisov/FrameAccessor/
 
 #import "Framing.h"
 

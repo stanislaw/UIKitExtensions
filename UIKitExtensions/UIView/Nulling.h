@@ -1,9 +1,9 @@
+// UIKitExtensions
 //
-//  UIView+Nulling.h
+// UIKitExtensions/UIView/Nulling.h
 //
-//  Created by Stanislaw Pankevich on 3/28/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import <UIKit/UIKit.h>
 

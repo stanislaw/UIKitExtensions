@@ -1,10 +1,9 @@
+// UIKitExtensions
 //
-//  UIColor+Core.h
-//  UIKitExtensionsApp
+// UIKitExtensions/UIColor/Core.h
 //
-//  Created by Stanislaw Pankevich on 10/3/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import <UIKit/UIKit.h>
 
@@ -13,6 +12,5 @@
 // http://stackoverflow.com/questions/1560081/how-can-i-create-a-uicolor-from-a-hex-string
 + (UIColor *)colorWithHexRGB:(NSUInteger)hexRGBValue alpha:(CGFloat)alpha;
 + (UIColor *)colorFromHexString:(NSString *)hexString alpha:(CGFloat)alpha;
-
 
 @end

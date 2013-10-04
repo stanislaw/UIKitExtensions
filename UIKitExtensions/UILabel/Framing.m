@@ -1,3 +1,10 @@
+// UIKitExtensions
+//
+// UIKitExtensions/UILabel/Framing.m
+//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
+
 #import "Framing.h"
 
 @implementation UILabel (Framing)

@@ -1,3 +1,10 @@
+// UIKitExtensions
+//
+// UIKitExtensions/UITextView/Core.m
+//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
+
 #import "Core.h"
 
 @implementation UITextView (Core)

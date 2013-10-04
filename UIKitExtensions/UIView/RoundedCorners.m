@@ -1,10 +1,9 @@
+// UIKitExtensions
 //
-//  UIView+RoundedCorners.m
-//  UIKitExtensionsApp
+// UIKitExtensions/UIView/RoundedCorners.m
 //
-//  Created by Stanislaw Pankevich on 9/24/13.
-//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "RoundedCorners.h"
 

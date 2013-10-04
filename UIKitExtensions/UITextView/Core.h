@@ -1,9 +1,9 @@
+// UIKitExtensions
 //
-//  UITextView+Helpers.h
+// UIKitExtensions/UITextView/Core.h
 //
-//  Created by Stanislaw Pankevich on 12/19/12.
-//  Copyright (c) 2012 IProjecting. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import <UIKit/UIKit.h>
 
