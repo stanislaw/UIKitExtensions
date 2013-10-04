@@ -7,7 +7,7 @@
 
 #import <UIKit/UIDevice.h>
 
-#import "Utils.h"
+#import "../Utils.h"
 
 // Preprocessor macros: defines "NSStringFromUIDeviceOrientation()"
 UIKE_NSStringFromMethodForEnumType(UIDeviceOrientation, NSInteger,

@@ -7,7 +7,7 @@
 
 #import <UIKit/UIApplication.h>
 
-#import "Utils.h"
+#import "../Utils.h"
 
 static inline UIInterfaceOrientation interfaceOrientation() {
     return UIApplication.sharedApplication.statusBarOrientation;
