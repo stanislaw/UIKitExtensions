@@ -12,8 +12,8 @@
 
 @interface UIView (Framing)
 
-@property CGPoint origin;
-@property CGSize size;
+@property CGPoint viewOrigin;
+@property CGSize  viewSize;
 
 @property CGFloat x;
 @property CGFloat y;

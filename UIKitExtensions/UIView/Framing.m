@@ -12,23 +12,23 @@
 
 @implementation UIView (Framing)
 
-- (CGPoint)origin {
+- (CGPoint)viewOrigin {
     return self.frame.origin;
 }
 
-- (void)setOrigin:(CGPoint)newOrigin {
+- (void)setViewOrigin:(CGPoint)newViewOrigin {
     CGRect newFrame = self.frame;
-    newFrame.origin = newOrigin;
+    newFrame.origin = newViewOrigin;
     self.frame = newFrame;
 }
 
-- (CGSize)size {
+- (CGSize)viewSize {
     return self.frame.size;
 }
 
-- (void)setSize:(CGSize)newSize {
+- (void)setViewSize:(CGSize)newViewSize {
     CGRect newFrame = self.frame;
-    newFrame.size = newSize;
+    newFrame.size = newViewSize;
     self.frame = newFrame;
 }
 
