@@ -93,6 +93,10 @@ UIKitExtensions borrows some of its methods from the following [Stackoverflow](h
 
 ## Similar tools
 
+* [Useful-Bits](https://github.com/kevinoneill/Useful-Bits)
+
+> A Collection of Useful Cocoa and UIKit Bits.
+
 * [CKUITools](https://github.com/genericspecific/CKUITools) 
 
 > A collection of Categories and other tools designed to make a developer's life easier.
