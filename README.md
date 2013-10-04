@@ -86,8 +86,9 @@ Thanks to the following projects here on Github:
     * UIView/Framing: the whole pack [Inspiration]
 
 UIKitExtensions borrows some of its methods from the following [Stackoverflow](http://stackoverflow.com/) topics:
-    * UIColor/Core: creating colors from hex strings http://stackoverflow.com/questions/1560081/how-can-i-create-a-uicolor-from-a-hex-string [Taken directly]
-    * UIView/RoundedCorners: http://stackoverflow.com/questions/4847163/round-two-corners-in-uiview [Taken directly]
+
+* UIColor/Core: creating colors from hex strings http://stackoverflow.com/questions/1560081/how-can-i-create-a-uicolor-from-a-hex-string [Taken directly]
+* UIView/RoundedCorners: http://stackoverflow.com/questions/4847163/round-two-corners-in-uiview [Taken directly]
 
 
 ## Similar tools
