@@ -8,6 +8,8 @@
 
 #import <UIKit/UIApplication.h>
 
+#import "Utils.h"
+
 static inline UIInterfaceOrientation interfaceOrientation() {
     return UIApplication.sharedApplication.statusBarOrientation;
 }
@@ -16,30 +18,12 @@ static inline BOOL isPortraitOrientation() {
     return UIInterfaceOrientationIsPortrait(interfaceOrientation());
 }
 
-static inline NSString * NSStringFromUIInterfaceOrientation(UIInterfaceOrientation interfaceOrientation) {
-    NSString *orientationString;
+// Preprocessor macros: defines "NSStringFromUIDeviceOrientation()"
+UIKE_NSStringFromMethodForEnumType(UIInterfaceOrientation,
+                                   NSInteger,
 
-    switch (interfaceOrientation) {
-        case UIInterfaceOrientationPortrait:
-            orientationString = @"UIInterfaceOrientationPortrait";
-            break;
-        case UIInterfaceOrientationPortraitUpsideDown:
-            orientationString = @"UIInterfaceOrientationPortraitUpsideDown";
-            break;
-        case UIInterfaceOrientationLandscapeLeft:
-            orientationString = @"UIInterfaceOrientationLandscapeLeft";
-            break;
-        case UIInterfaceOrientationLandscapeRight:
-            orientationString = @"UIInterfaceOrientationLandscapeRight";
-            break;
+                                   UIInterfaceOrientationPortrait,
+                                   UIInterfaceOrientationPortraitUpsideDown,
+                                   UIInterfaceOrientationLandscapeLeft,
+                                   UIInterfaceOrientationLandscapeRight);
 
-        default:
-            break;
-    }
-    
-    return orientationString;
-}
-
-static inline void NSLogUIInterfaceOrientation(UIInterfaceOrientation interfaceOrientation) {
-    NSLog(@"%@", NSStringFromUIInterfaceOrientation(interfaceOrientation));
-}

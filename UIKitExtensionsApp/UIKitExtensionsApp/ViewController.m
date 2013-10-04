@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "UIDevice.h"
+
 @interface ViewController ()
 
 @end
@@ -24,6 +26,7 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+
 }
 
 @end

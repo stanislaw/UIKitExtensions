@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
 
   s.source_files = 'UIKitExtensions/**/*.{h,m}'
+  # s.private_header_files = "UIKitExtensions/Private/*.h"
   s.header_mappings_dir = 'UIKitExtensions'
 
   s.frameworks  = 'UIKit, QuartzCore'

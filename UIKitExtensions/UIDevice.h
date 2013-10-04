@@ -1,3 +1,3 @@
 #import <UIKit/UIDevice.h>
 
-#import "UIDevice/Logging.h"
+#import "UIDevice/Core.h"
