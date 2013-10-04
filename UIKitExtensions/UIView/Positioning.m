@@ -15,11 +15,11 @@
 }
 
 - (void)centerVerticallyInSuperView {
-    self.centerY = CGRectGetHeight(self.superview.bounds);
+    self.centerY = CGRectGetMidY(self.superview.bounds);
 }
 
 - (void)centerHorizontallyInSuperView {
-    self.centerX = CGRectGetWidth(self.superview.bounds);
+    self.centerX = CGRectGetMidX(self.superview.bounds);
 }
 
 @end
