@@ -12,16 +12,16 @@ Here is a quick overview of features that set `UIKitExtensions` apart from many 
 #import <UIKitExtensions/UIScreen.h>
 #import <UIKitExtensions/UIHelpers.h>
 #import <UIKitExtensions/UIView/Blocks.h>
-#import <UIKitExtensions/UIView/Sizing.h>
-#import <UIKitExtensions/UILabel/Sizing.h>
+#import <UIKitExtensions/UIView/Framing.h>
+#import <UIKitExtensions/UILabel/Framing.h>
 ```
 
 This design implies the three possible ways of including `UIKitExtensions` to your project:
 
-1) It is possible to require only `Sizing` extension for `UIView` class:
+1) It is possible to require only `Framing` extension for `UIView` class:
 
 ```objective-c
-#import <UIKitExtensions/UIView/Sizing.h>
+#import <UIKitExtensions/UIView/Framing.h>
 ```
 
 2) It is possible to require the whole pack of extensions for `UIView` class:
@@ -39,13 +39,13 @@ This design implies the three possible ways of including `UIKitExtensions` to yo
 * The magical power of CocoaPods [header_mappings_dir](http://docs.cocoapods.org/specification.html#header_mappings_dir) directive preserving original directory structure for header files inspires `UIKitExtensions` to break one (and only one, don't worry) Objective-C convention: it replaces the usage of `+` sign for categories with `Class/Extension` pair adhering to a corresponding folder structure. So instead of importing a category that could look like 
 
 ```objective-c
-#import <UIKitExtensions/UIView+Sizing>
+#import <UIKitExtensions/UIView+Framing>
 ```
 
 you import the "extension" pack
 
 ```objective-c
-#import <UIKitExtensions/UIView/Sizing.h>
+#import <UIKitExtensions/UIView/Framing.h>
 ```
 
 Just browse through the `UIKitExtensions/` folder contents - it is pretty clear, and it is cool.
@@ -72,7 +72,7 @@ And run
 pod update
 ```
 
-or you can just clone `UIKitExtensions` and add `UIKitExtensions/` folder to your project (though author have not performed any tests for if the paths like `UIKitExtensions/UIView/Sizing.h` would be resolved correctly without the magic power of Cocoapods).
+or you can just clone `UIKitExtensions` and add `UIKitExtensions/` folder to your project (though author have not performed any tests for if the paths like `UIKitExtensions/UIView/Framing.h` would be resolved correctly without the magic power of Cocoapods).
 
 ## Credits
 

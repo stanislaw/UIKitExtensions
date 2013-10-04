@@ -1,6 +1,6 @@
-#import "Sizing.h"
+#import "Framing.h"
 
-@implementation UILabel (Sizing)
+@implementation UILabel (Framing)
 
 - (void)resizeFrameToFitTheText {
     NSString *stringToCalucateSizeAgainst;

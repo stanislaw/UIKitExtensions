@@ -1,4 +1,4 @@
 #import <UIKit/UIKit.h>
 
-#import "UILabel/Sizing.h"
+#import "UILabel/Framing.h"
 

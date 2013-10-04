@@ -35,7 +35,7 @@
 		8692A4FE1764160600BE8DB4 /* DynamicProperties_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4FC1764157300BE8DB4 /* DynamicProperties_Tests.m */; };
 		86980014175F18C400E1DEAE /* Clipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBE0175ED3AE00FE5CEB /* Clipping.m */; };
 		86C7CBC8175ECE9900FE5CEB /* ScalingAndCropping.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBB2175ECE9900FE5CEB /* ScalingAndCropping.m */; };
-		86C7CBC9175ECE9900FE5CEB /* Sizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBB6175ECE9900FE5CEB /* Sizing.m */; };
+		86C7CBC9175ECE9900FE5CEB /* Framing.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBB6175ECE9900FE5CEB /* Framing.m */; };
 		86C7CBCA175ECE9900FE5CEB /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBBB175ECE9900FE5CEB /* Core.m */; };
 		86C7CBCB175ECE9900FE5CEB /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBBE175ECE9900FE5CEB /* Core.m */; };
 		86C7CBCC175ECE9900FE5CEB /* DynamicProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC1175ECE9900FE5CEB /* DynamicProperties.m */; };
@@ -103,8 +103,8 @@
 		86C7CBB1175ECE9900FE5CEB /* ScalingAndCropping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScalingAndCropping.h; sourceTree = "<group>"; };
 		86C7CBB2175ECE9900FE5CEB /* ScalingAndCropping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScalingAndCropping.m; sourceTree = "<group>"; };
 		86C7CBB3175ECE9900FE5CEB /* UIKitExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitExtensions.h; sourceTree = "<group>"; };
-		86C7CBB5175ECE9900FE5CEB /* Sizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sizing.h; sourceTree = "<group>"; };
-		86C7CBB6175ECE9900FE5CEB /* Sizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sizing.m; sourceTree = "<group>"; };
+		86C7CBB5175ECE9900FE5CEB /* Framing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Framing.h; sourceTree = "<group>"; };
+		86C7CBB6175ECE9900FE5CEB /* Framing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Framing.m; sourceTree = "<group>"; };
 		86C7CBB7175ECE9900FE5CEB /* Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rotation.h; sourceTree = "<group>"; };
 		86C7CBB8175ECE9900FE5CEB /* UIScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScreen.h; sourceTree = "<group>"; };
 		86C7CBBA175ECE9900FE5CEB /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
@@ -340,8 +340,8 @@
 		86C7CBB4175ECE9900FE5CEB /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
-				86C7CBB5175ECE9900FE5CEB /* Sizing.h */,
-				86C7CBB6175ECE9900FE5CEB /* Sizing.m */,
+				86C7CBB5175ECE9900FE5CEB /* Framing.h */,
+				86C7CBB6175ECE9900FE5CEB /* Framing.m */,
 			);
 			path = UILabel;
 			sourceTree = "<group>";
@@ -571,7 +571,7 @@
 				860EDB3117FE292F001BEEEE /* Positioning.m in Sources */,
 				860EDB3717FE3BB9001BEEEE /* Core.m in Sources */,
 				86C7CBC8175ECE9900FE5CEB /* ScalingAndCropping.m in Sources */,
-				86C7CBC9175ECE9900FE5CEB /* Sizing.m in Sources */,
+				86C7CBC9175ECE9900FE5CEB /* Framing.m in Sources */,
 				86C7CBCA175ECE9900FE5CEB /* Core.m in Sources */,
 				8619E63917F225D50044D201 /* RoundedCorners.m in Sources */,
 				86C7CBCB175ECE9900FE5CEB /* Core.m in Sources */,
