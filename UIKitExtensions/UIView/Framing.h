@@ -12,6 +12,8 @@
 
 @interface UIView (Framing)
 
+// http://stackoverflow.com/questions/16118106/uitextview-strange-text-clipping
+// https://github.com/genericspecific/CKUITools/issues/8
 @property CGPoint viewOrigin;
 @property CGSize  viewSize;
 
