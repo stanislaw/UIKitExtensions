@@ -7,13 +7,11 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void (^blockWithObject)(id object);
-
 @interface UIView (DynamicProperties)
 
-@property (copy) blockWithObject dynamicProperties;
+@property (copy, nonatomic) void(^dynamicProperties)(id view);
 
-- (instancetype)defineDynamicPropertiesWithBlock:(blockWithObject)viewPropertiesBlock;
+- (instancetype)defineDynamicPropertiesWithBlock:(void(^)(id view))viewPropertiesBlock;
 - (instancetype)applyDynamicProperties;
 
 @end

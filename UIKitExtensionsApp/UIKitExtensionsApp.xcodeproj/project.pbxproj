@@ -36,7 +36,6 @@
 		86980014175F18C400E1DEAE /* Clipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBE0175ED3AE00FE5CEB /* Clipping.m */; };
 		86C7CBC8175ECE9900FE5CEB /* ScalingAndCropping.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBB2175ECE9900FE5CEB /* ScalingAndCropping.m */; };
 		86C7CBC9175ECE9900FE5CEB /* Framing.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBB6175ECE9900FE5CEB /* Framing.m */; };
-		86C7CBCA175ECE9900FE5CEB /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBBB175ECE9900FE5CEB /* Core.m */; };
 		86C7CBCB175ECE9900FE5CEB /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBBE175ECE9900FE5CEB /* Core.m */; };
 		86C7CBCC175ECE9900FE5CEB /* DynamicProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC1175ECE9900FE5CEB /* DynamicProperties.m */; };
 		86C7CBCD175ECE9900FE5CEB /* Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC3175ECE9900FE5CEB /* Blocks.m */; };
@@ -107,8 +106,6 @@
 		86C7CBB6175ECE9900FE5CEB /* Framing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Framing.m; sourceTree = "<group>"; };
 		86C7CBB7175ECE9900FE5CEB /* Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rotation.h; sourceTree = "<group>"; };
 		86C7CBB8175ECE9900FE5CEB /* UIScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScreen.h; sourceTree = "<group>"; };
-		86C7CBBA175ECE9900FE5CEB /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
-		86C7CBBB175ECE9900FE5CEB /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
 		86C7CBBD175ECE9900FE5CEB /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		86C7CBBE175ECE9900FE5CEB /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
 		86C7CBC0175ECE9900FE5CEB /* DynamicProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicProperties.h; sourceTree = "<group>"; };
@@ -121,7 +118,6 @@
 		86C7CBC7175ECE9900FE5CEB /* Framing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Framing.m; sourceTree = "<group>"; };
 		86C7CBD0175ECEE800FE5CEB /* UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView.h; sourceTree = "<group>"; };
 		86C7CBD1175ECEF500FE5CEB /* UITextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextView.h; sourceTree = "<group>"; };
-		86C7CBD2175ECF0000FE5CEB /* UIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScrollView.h; sourceTree = "<group>"; };
 		86C7CBD3175ECF0900FE5CEB /* UILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabel.h; sourceTree = "<group>"; };
 		86C7CBD4175ECF1200FE5CEB /* UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImage.h; sourceTree = "<group>"; };
 		86C7CBD5175ECF6100FE5CEB /* RoundedCorners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedCorners.h; sourceTree = "<group>"; };
@@ -302,12 +298,10 @@
 				86980001175EFF0800E1DEAE /* UIDevice */,
 				86C7CBB0175ECE9900FE5CEB /* UIImage */,
 				86C7CBB4175ECE9900FE5CEB /* UILabel */,
-				86C7CBB9175ECE9900FE5CEB /* UIScrollView */,
 				86C7CBBC175ECE9900FE5CEB /* UITextView */,
 				86C7CBBF175ECE9900FE5CEB /* UIView */,
 				86C7CBD0175ECEE800FE5CEB /* UIView.h */,
 				86C7CBD1175ECEF500FE5CEB /* UITextView.h */,
-				86C7CBD2175ECF0000FE5CEB /* UIScrollView.h */,
 				86C7CBD3175ECF0900FE5CEB /* UILabel.h */,
 				86C7CBD4175ECF1200FE5CEB /* UIImage.h */,
 				86C7CBB8175ECE9900FE5CEB /* UIScreen.h */,
@@ -344,15 +338,6 @@
 				86C7CBB6175ECE9900FE5CEB /* Framing.m */,
 			);
 			path = UILabel;
-			sourceTree = "<group>";
-		};
-		86C7CBB9175ECE9900FE5CEB /* UIScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				86C7CBBA175ECE9900FE5CEB /* Core.h */,
-				86C7CBBB175ECE9900FE5CEB /* Core.m */,
-			);
-			path = UIScrollView;
 			sourceTree = "<group>";
 		};
 		86C7CBBC175ECE9900FE5CEB /* UITextView */ = {
@@ -572,7 +557,6 @@
 				860EDB3717FE3BB9001BEEEE /* Core.m in Sources */,
 				86C7CBC8175ECE9900FE5CEB /* ScalingAndCropping.m in Sources */,
 				86C7CBC9175ECE9900FE5CEB /* Framing.m in Sources */,
-				86C7CBCA175ECE9900FE5CEB /* Core.m in Sources */,
 				8619E63917F225D50044D201 /* RoundedCorners.m in Sources */,
 				86C7CBCB175ECE9900FE5CEB /* Core.m in Sources */,
 				86C7CBCC175ECE9900FE5CEB /* DynamicProperties.m in Sources */,

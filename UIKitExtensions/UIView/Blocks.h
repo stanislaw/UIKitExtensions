@@ -13,6 +13,6 @@
 
 - (instancetype)initWithFrame:(CGRect)frame andBlock:(void(^)(id))block;
 
-- (instancetype)performBlock:(void(^)(id))block;
+- (instancetype)performBlockOnReceiver:(void(^)(id))block;
 
 @end

@@ -8,18 +8,19 @@
 #import "DynamicProperties.h"
 #import <objc/runtime.h>
 
-static void *dynamicPropertiesKey = &dynamicPropertiesKey;
+static void *UIViewDynamicPropertiesKey = &UIViewDynamicPropertiesKey;
 
 @implementation UIView (DynamicProperties)
 
-- (instancetype)defineDynamicPropertiesWithBlock:(blockWithObject)viewPropertiesBlock {
+- (instancetype)defineDynamicPropertiesWithBlock:(void(^)(id view))viewPropertiesBlock {
     self.dynamicProperties = viewPropertiesBlock;
     return self;
 }
 
 - (instancetype)applyDynamicProperties {
     if (self.dynamicProperties == nil) {
-        @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:@"dynamic properties should be defined to be run" userInfo:nil];
+        NSString *reasonString = [NSString stringWithFormat:@"%@: dynamic properties should be defined to be run", self];
+        @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:reasonString userInfo:nil];
     }
     
     self.dynamicProperties(self);
@@ -27,12 +28,12 @@ static void *dynamicPropertiesKey = &dynamicPropertiesKey;
     return self;
 }
 
-- (blockWithObject)dynamicProperties {
-    return objc_getAssociatedObject(self, &dynamicPropertiesKey);
+- (void(^)(id view))dynamicProperties {
+    return objc_getAssociatedObject(self, &UIViewDynamicPropertiesKey);
 }
 
-- (void)setDynamicProperties:(blockWithObject)dynamicPropertiesBlock {
-    objc_setAssociatedObject(self, &dynamicPropertiesKey, [dynamicPropertiesBlock copy], OBJC_ASSOCIATION_RETAIN);
+- (void)setDynamicProperties:(void(^)(id view))dynamicPropertiesBlock {
+    objc_setAssociatedObject(self, &UIViewDynamicPropertiesKey, [dynamicPropertiesBlock copy], OBJC_ASSOCIATION_RETAIN);
 }
 
 @end
