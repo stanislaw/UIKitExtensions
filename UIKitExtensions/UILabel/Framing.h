@@ -1,9 +1,8 @@
 //
 //  UILabel+Extensions.h
-//  aaah
 //
 //  Created by Stanislaw Pankevich on 1/22/13.
-//  Copyright (c) 2013 IProjecting. All rights reserved.
+//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -1,12 +1,11 @@
 //
-//  UIView+Sizing.m
-//  aaah
+//  UIKitExtensions/UIView/Framing.m
 //
 //  Created by Stanislaw Pankevich on 5/10/13.
-//  Copyright (c) 2013 IProjecting. All rights reserved.
+//  Copyright (c) 2013 All rights reserved.
 //
 
-#import "Sizing.h"
+#import "Framing.h"
 
 @implementation UIView (Framing)
 

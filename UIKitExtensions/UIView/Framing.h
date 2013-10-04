@@ -1,5 +1,12 @@
-// Inspired by FrameAccessor
-// https://github.com/AlexDenisov/FrameAccessor/
+//
+//  UIKitExtensions/UIView/Framing.h
+//
+//  Created by Stanislaw Pankevich on 5/10/13.
+//  Copyright (c) 2013 All rights reserved.
+//
+//  Inspired by FrameAccessor
+//  https://github.com/AlexDenisov/FrameAccessor/
+//
 
 #import <UIKit/UIKit.h>
 

@@ -1,10 +1,9 @@
+// UIKitExtensions
 //
-//  UIView+Extensions.m
-//  aaah
+// UIKitExtensions/UIView/Blocks.m
 //
-//  Created by Stanislaw Pankevich on 1/22/13.
-//  Copyright (c) 2013 IProjecting. All rights reserved.
-//
+// Copyright (c) 2013 Stanislaw Pankevich
+// Released under the MIT license
 
 #import "Blocks.h"
 

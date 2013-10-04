@@ -1,9 +1,8 @@
 //
 //  UIView+Nulling.h
-//  aaah
 //
 //  Created by Stanislaw Pankevich on 3/28/13.
-//  Copyright (c) 2013 IProjecting. All rights reserved.
+//  Copyright (c) 2013 Stanislaw Pankevich. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
