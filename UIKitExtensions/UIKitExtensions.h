@@ -11,6 +11,7 @@
 
 #import "UIApplication.h"
 #import "UIDevice.h"
+#import "UIGeometry.h"
 #import "UIImage.h"
 #import "UILabel.h"
 #import "UIScreen.h"

@@ -31,6 +31,8 @@
 		8626A104175CF6F700D32F79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DB175CF6F700D32F79 /* UIKit.framework */; };
 		8626A105175CF6F700D32F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DD175CF6F700D32F79 /* Foundation.framework */; };
 		8626A10D175CF6F700D32F79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8626A10B175CF6F700D32F79 /* InfoPlist.strings */; };
+		864E6848180287B200F24F3A /* UIGeometry_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E68461802872000F24F3A /* UIGeometry_Tests.m */; };
+		864E684B18028DC300F24F3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DF175CF6F700D32F79 /* CoreGraphics.framework */; };
 		8692A4FA1764133300BE8DB4 /* Blocks_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4F4176410AA00BE8DB4 /* Blocks_Tests.m */; };
 		8692A4FE1764160600BE8DB4 /* DynamicProperties_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4FC1764157300BE8DB4 /* DynamicProperties_Tests.m */; };
 		86980014175F18C400E1DEAE /* Clipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBE0175ED3AE00FE5CEB /* Clipping.m */; };
@@ -90,6 +92,8 @@
 		8626A102175CF6F700D32F79 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8626A10A175CF6F700D32F79 /* UIKitExtensionsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIKitExtensionsAppTests-Info.plist"; sourceTree = "<group>"; };
 		8626A10C175CF6F700D32F79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		864E68441802860700F24F3A /* UIGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIGeometry.h; sourceTree = "<group>"; };
+		864E68461802872000F24F3A /* UIGeometry_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIGeometry_Tests.m; path = ../Tests/UIGeometry/UIGeometry_Tests.m; sourceTree = "<group>"; };
 		8692A4F4176410AA00BE8DB4 /* Blocks_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Blocks_Tests.m; path = ../Tests/UIView/Blocks_Tests.m; sourceTree = "<group>"; };
 		8692A4F61764115100BE8DB4 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		8692A4F8176411C500BE8DB4 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "../Pods/build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864E684B18028DC300F24F3A /* CoreGraphics.framework in Frameworks */,
 				860EDB2617FDDEC8001BEEEE /* QuartzCore.framework in Frameworks */,
 				8626A103175CF6F700D32F79 /* SenTestingKit.framework in Frameworks */,
 				8626A104175CF6F700D32F79 /* UIKit.framework in Frameworks */,
@@ -263,6 +268,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		864E6845180286F500F24F3A /* UIGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				864E68461802872000F24F3A /* UIGeometry_Tests.m */,
+			);
+			name = UIGeometry;
+			sourceTree = "<group>";
+		};
 		8692A4F317640F6400BE8DB4 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +324,7 @@
 				86980013175F044100E1DEAE /* UIApplication.h */,
 				860EDB2C17FDF8D2001BEEEE /* UIColor.h */,
 				860EDB3917FE3E0E001BEEEE /* Utils.h */,
+				864E68441802860700F24F3A /* UIGeometry.h */,
 			);
 			name = UIKitExtensions;
 			path = ../../../../../stanislaw/Work/Pods/UIKitExtensions/UIKitExtensions;
@@ -373,6 +387,7 @@
 		86C7CBDA175ED17100FE5CEB /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				864E6845180286F500F24F3A /* UIGeometry */,
 				8692A4F317640F6400BE8DB4 /* UIView */,
 			);
 			name = Tests;
@@ -576,6 +591,7 @@
 			files = (
 				8692A4FA1764133300BE8DB4 /* Blocks_Tests.m in Sources */,
 				8692A4FE1764160600BE8DB4 /* DynamicProperties_Tests.m in Sources */,
+				864E6848180287B200F24F3A /* UIGeometry_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

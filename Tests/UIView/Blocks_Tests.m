@@ -24,11 +24,11 @@ describe(@"UIView/Blocks", ^{
         });
     });
 
-    describe(@"-[UIView performBlock:]", ^{
+    describe(@"-[UIView performBlockOnReceiver:]", ^{
         it(@"should support chaining", ^{
             UIView *view = [[UIView alloc] init];
 
-            UIView *resultView = [view performBlock:nil];
+            UIView *resultView = [view performBlockOnReceiver:nil];
 
             [[view should] equal:resultView];
         });
@@ -38,7 +38,7 @@ describe(@"UIView/Blocks", ^{
 
             UIView *view = [[UIView alloc] init];
 
-            [view performBlock:^(UIView *view) {
+            [view performBlockOnReceiver:^(UIView *view) {
                 view.tag = tag;
             }];
 
