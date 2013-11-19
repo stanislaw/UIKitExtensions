@@ -35,15 +35,18 @@
 		864E684B18028DC300F24F3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DF175CF6F700D32F79 /* CoreGraphics.framework */; };
 		8692A4FA1764133300BE8DB4 /* Blocks_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4F4176410AA00BE8DB4 /* Blocks_Tests.m */; };
 		8692A4FE1764160600BE8DB4 /* DynamicProperties_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8692A4FC1764157300BE8DB4 /* DynamicProperties_Tests.m */; };
-		86980014175F18C400E1DEAE /* Clipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBE0175ED3AE00FE5CEB /* Clipping.m */; };
-		86C7CBC8175ECE9900FE5CEB /* ScalingAndCropping.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBB2175ECE9900FE5CEB /* ScalingAndCropping.m */; };
+		86B88495183C0173004F5968 /* SafeAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B88490183BFDF4004F5968 /* SafeAssets.m */; };
+		86B88496183C0177004F5968 /* ScalingAndCropping.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBB2175ECE9900FE5CEB /* ScalingAndCropping.m */; };
+		86B88497183C017B004F5968 /* SafeAssets_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B88493183C00EF004F5968 /* SafeAssets_Tests.m */; };
+		86B88498183C0182004F5968 /* RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBD6175ECF6100FE5CEB /* RoundedCorners.m */; };
+		86B88499183C0184004F5968 /* Clipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBE0175ED3AE00FE5CEB /* Clipping.m */; };
+		86B8849A183C0187004F5968 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBE3175ED3FE00FE5CEB /* Core.m */; };
 		86C7CBC9175ECE9900FE5CEB /* Framing.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBB6175ECE9900FE5CEB /* Framing.m */; };
 		86C7CBCB175ECE9900FE5CEB /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBBE175ECE9900FE5CEB /* Core.m */; };
 		86C7CBCC175ECE9900FE5CEB /* DynamicProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC1175ECE9900FE5CEB /* DynamicProperties.m */; };
 		86C7CBCD175ECE9900FE5CEB /* Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC3175ECE9900FE5CEB /* Blocks.m */; };
 		86C7CBCE175ECE9900FE5CEB /* Nulling.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC5175ECE9900FE5CEB /* Nulling.m */; };
 		86C7CBCF175ECE9900FE5CEB /* Framing.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC7175ECE9900FE5CEB /* Framing.m */; };
-		86C7CBD7175ECF6100FE5CEB /* RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBD6175ECF6100FE5CEB /* RoundedCorners.m */; };
 		86C7CBD9175ED04800FE5CEB /* Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBD8175ED04800FE5CEB /* Rotation.m */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +106,9 @@
 		86980010175F03A000E1DEAE /* InterfaceOrientations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceOrientations.h; sourceTree = "<group>"; };
 		86980013175F044100E1DEAE /* UIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIApplication.h; sourceTree = "<group>"; };
 		8698FFFD175EDAEE00E1DEAE /* UIHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelpers.h; sourceTree = "<group>"; };
+		86B8848F183BFDF4004F5968 /* SafeAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeAssets.h; sourceTree = "<group>"; };
+		86B88490183BFDF4004F5968 /* SafeAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeAssets.m; sourceTree = "<group>"; };
+		86B88493183C00EF004F5968 /* SafeAssets_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SafeAssets_Tests.m; path = ../Tests/UIImage/SafeAssets_Tests.m; sourceTree = "<group>"; };
 		86C7CBB1175ECE9900FE5CEB /* ScalingAndCropping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScalingAndCropping.h; sourceTree = "<group>"; };
 		86C7CBB2175ECE9900FE5CEB /* ScalingAndCropping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScalingAndCropping.m; sourceTree = "<group>"; };
 		86C7CBB3175ECE9900FE5CEB /* UIKitExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitExtensions.h; sourceTree = "<group>"; };
@@ -302,6 +308,14 @@
 			path = UIApplication;
 			sourceTree = "<group>";
 		};
+		86B88492183C00D9004F5968 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				86B88493183C00EF004F5968 /* SafeAssets_Tests.m */,
+			);
+			name = UIImage;
+			sourceTree = "<group>";
+		};
 		86C7CBAF175ECE9900FE5CEB /* UIKitExtensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +355,8 @@
 				86C7CBE0175ED3AE00FE5CEB /* Clipping.m */,
 				86C7CBE2175ED3FD00FE5CEB /* Core.h */,
 				86C7CBE3175ED3FE00FE5CEB /* Core.m */,
+				86B8848F183BFDF4004F5968 /* SafeAssets.h */,
+				86B88490183BFDF4004F5968 /* SafeAssets.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -387,6 +403,7 @@
 		86C7CBDA175ED17100FE5CEB /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				86B88492183C00D9004F5968 /* UIImage */,
 				864E6845180286F500F24F3A /* UIGeometry */,
 				8692A4F317640F6400BE8DB4 /* UIView */,
 			);
@@ -570,7 +587,6 @@
 				8626A0FB175CF6F700D32F79 /* ViewController.m in Sources */,
 				860EDB3117FE292F001BEEEE /* Positioning.m in Sources */,
 				860EDB3717FE3BB9001BEEEE /* Core.m in Sources */,
-				86C7CBC8175ECE9900FE5CEB /* ScalingAndCropping.m in Sources */,
 				86C7CBC9175ECE9900FE5CEB /* Framing.m in Sources */,
 				8619E63917F225D50044D201 /* RoundedCorners.m in Sources */,
 				86C7CBCB175ECE9900FE5CEB /* Core.m in Sources */,
@@ -579,9 +595,7 @@
 				86C7CBCE175ECE9900FE5CEB /* Nulling.m in Sources */,
 				86C7CBCF175ECE9900FE5CEB /* Framing.m in Sources */,
 				860EDB2417FDDE02001BEEEE /* Core.m in Sources */,
-				86C7CBD7175ECF6100FE5CEB /* RoundedCorners.m in Sources */,
 				86C7CBD9175ED04800FE5CEB /* Rotation.m in Sources */,
-				86980014175F18C400E1DEAE /* Clipping.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,7 +603,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B88496183C0177004F5968 /* ScalingAndCropping.m in Sources */,
 				8692A4FA1764133300BE8DB4 /* Blocks_Tests.m in Sources */,
+				86B88495183C0173004F5968 /* SafeAssets.m in Sources */,
+				86B88499183C0184004F5968 /* Clipping.m in Sources */,
+				86B88498183C0182004F5968 /* RoundedCorners.m in Sources */,
+				86B8849A183C0187004F5968 /* Core.m in Sources */,
+				86B88497183C017B004F5968 /* SafeAssets_Tests.m in Sources */,
 				8692A4FE1764160600BE8DB4 /* DynamicProperties_Tests.m in Sources */,
 				864E6848180287B200F24F3A /* UIGeometry_Tests.m in Sources */,
 			);
