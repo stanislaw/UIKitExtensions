@@ -8,25 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		39B998351ED74F2AB39E0088 /* libPods-UIKitExtensionsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B03DDEA679E74B459FB04A0E /* libPods-UIKitExtensionsAppTests.a */; };
-		860EDB2417FDDE02001BEEEE /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 860EDB2317FDDE02001BEEEE /* Core.m */; };
 		860EDB2617FDDEC8001BEEEE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860EDB2517FDDEC8001BEEEE /* QuartzCore.framework */; };
-		860EDB2717FDDECF001BEEEE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860EDB2517FDDEC8001BEEEE /* QuartzCore.framework */; };
-		860EDB2B17FDF8C0001BEEEE /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 860EDB2A17FDF8C0001BEEEE /* Core.m */; };
-		860EDB3117FE292F001BEEEE /* Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 860EDB3017FE292F001BEEEE /* Positioning.m */; };
-		860EDB3717FE3BB9001BEEEE /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 860EDB3617FE3BB9001BEEEE /* Core.m */; };
-		8619E63917F225D50044D201 /* RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 8619E63817F225D50044D201 /* RoundedCorners.m */; };
-		8626A0DC175CF6F700D32F79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DB175CF6F700D32F79 /* UIKit.framework */; };
-		8626A0DE175CF6F700D32F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DD175CF6F700D32F79 /* Foundation.framework */; };
-		8626A0E0175CF6F700D32F79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DF175CF6F700D32F79 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		8626A0E6175CF6F700D32F79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8626A0E4175CF6F700D32F79 /* InfoPlist.strings */; };
-		8626A0E8175CF6F700D32F79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A0E7175CF6F700D32F79 /* main.m */; };
-		8626A0EC175CF6F700D32F79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A0EB175CF6F700D32F79 /* AppDelegate.m */; };
-		8626A0EE175CF6F700D32F79 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8626A0ED175CF6F700D32F79 /* Default.png */; };
-		8626A0F0175CF6F700D32F79 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8626A0EF175CF6F700D32F79 /* Default@2x.png */; };
-		8626A0F2175CF6F700D32F79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8626A0F1175CF6F700D32F79 /* Default-568h@2x.png */; };
-		8626A0F5175CF6F700D32F79 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8626A0F3175CF6F700D32F79 /* MainStoryboard_iPhone.storyboard */; };
-		8626A0F8175CF6F700D32F79 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8626A0F6175CF6F700D32F79 /* MainStoryboard_iPad.storyboard */; };
-		8626A0FB175CF6F700D32F79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626A0FA175CF6F700D32F79 /* ViewController.m */; };
 		8626A103175CF6F700D32F79 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A102175CF6F700D32F79 /* SenTestingKit.framework */; };
 		8626A104175CF6F700D32F79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DB175CF6F700D32F79 /* UIKit.framework */; };
 		8626A105175CF6F700D32F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626A0DD175CF6F700D32F79 /* Foundation.framework */; };
@@ -41,24 +23,14 @@
 		86B88498183C0182004F5968 /* RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBD6175ECF6100FE5CEB /* RoundedCorners.m */; };
 		86B88499183C0184004F5968 /* Clipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBE0175ED3AE00FE5CEB /* Clipping.m */; };
 		86B8849A183C0187004F5968 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBE3175ED3FE00FE5CEB /* Core.m */; };
-		86C7CBC9175ECE9900FE5CEB /* Framing.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBB6175ECE9900FE5CEB /* Framing.m */; };
-		86C7CBCB175ECE9900FE5CEB /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBBE175ECE9900FE5CEB /* Core.m */; };
-		86C7CBCC175ECE9900FE5CEB /* DynamicProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC1175ECE9900FE5CEB /* DynamicProperties.m */; };
-		86C7CBCD175ECE9900FE5CEB /* Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC3175ECE9900FE5CEB /* Blocks.m */; };
-		86C7CBCE175ECE9900FE5CEB /* Nulling.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC5175ECE9900FE5CEB /* Nulling.m */; };
-		86C7CBCF175ECE9900FE5CEB /* Framing.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC7175ECE9900FE5CEB /* Framing.m */; };
-		86C7CBD9175ED04800FE5CEB /* Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBD8175ED04800FE5CEB /* Rotation.m */; };
+		86B884A2183C030A004F5968 /* DynamicProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC1175ECE9900FE5CEB /* DynamicProperties.m */; };
+		86B884A3183C030A004F5968 /* Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC3175ECE9900FE5CEB /* Blocks.m */; };
+		86B884A4183C030A004F5968 /* Nulling.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC5175ECE9900FE5CEB /* Nulling.m */; };
+		86B884A5183C030A004F5968 /* Framing.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBC7175ECE9900FE5CEB /* Framing.m */; };
+		86B884A6183C030A004F5968 /* Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7CBD8175ED04800FE5CEB /* Rotation.m */; };
+		86B884A7183C030A004F5968 /* RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 8619E63817F225D50044D201 /* RoundedCorners.m */; };
+		86B884A8183C030A004F5968 /* Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 860EDB3017FE292F001BEEEE /* Positioning.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8626A106175CF6F700D32F79 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8626A0D0175CF6F700D32F79 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8626A0D7175CF6F700D32F79;
-			remoteInfo = UIKitExtensionsApp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		49A0D19FAA37468B8B8C7D49 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,23 +46,9 @@
 		860EDB3917FE3E0E001BEEEE /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		8619E63717F225D50044D201 /* RoundedCorners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedCorners.h; sourceTree = "<group>"; };
 		8619E63817F225D50044D201 /* RoundedCorners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedCorners.m; sourceTree = "<group>"; };
-		8626A0D8175CF6F700D32F79 /* UIKitExtensionsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitExtensionsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8626A0DB175CF6F700D32F79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8626A0DD175CF6F700D32F79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8626A0DF175CF6F700D32F79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8626A0E3175CF6F700D32F79 /* UIKitExtensionsApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIKitExtensionsApp-Info.plist"; sourceTree = "<group>"; };
-		8626A0E5175CF6F700D32F79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8626A0E7175CF6F700D32F79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8626A0E9175CF6F700D32F79 /* UIKitExtensionsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKitExtensionsApp-Prefix.pch"; sourceTree = "<group>"; };
-		8626A0EA175CF6F700D32F79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8626A0EB175CF6F700D32F79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8626A0ED175CF6F700D32F79 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		8626A0EF175CF6F700D32F79 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		8626A0F1175CF6F700D32F79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8626A0F4175CF6F700D32F79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		8626A0F7175CF6F700D32F79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		8626A0F9175CF6F700D32F79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8626A0FA175CF6F700D32F79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8626A101175CF6F700D32F79 /* UIKitExtensionsAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitExtensionsAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8626A102175CF6F700D32F79 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8626A10A175CF6F700D32F79 /* UIKitExtensionsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIKitExtensionsAppTests-Info.plist"; sourceTree = "<group>"; };
@@ -144,17 +102,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8626A0D5175CF6F700D32F79 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				860EDB2717FDDECF001BEEEE /* QuartzCore.framework in Frameworks */,
-				8626A0DC175CF6F700D32F79 /* UIKit.framework in Frameworks */,
-				8626A0DE175CF6F700D32F79 /* Foundation.framework in Frameworks */,
-				8626A0E0175CF6F700D32F79 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8626A0FD175CF6F700D32F79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -194,7 +141,6 @@
 			children = (
 				86C7CBDA175ED17100FE5CEB /* Tests */,
 				86C7CBAF175ECE9900FE5CEB /* UIKitExtensions */,
-				8626A0E1175CF6F700D32F79 /* UIKitExtensionsApp */,
 				8626A108175CF6F700D32F79 /* UIKitExtensionsAppTests */,
 				8626A0DA175CF6F700D32F79 /* Frameworks */,
 				8626A0D9175CF6F700D32F79 /* Products */,
@@ -206,7 +152,6 @@
 		8626A0D9175CF6F700D32F79 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8626A0D8175CF6F700D32F79 /* UIKitExtensionsApp.app */,
 				8626A101175CF6F700D32F79 /* UIKitExtensionsAppTests.octest */,
 			);
 			name = Products;
@@ -225,34 +170,6 @@
 				B03DDEA679E74B459FB04A0E /* libPods-UIKitExtensionsAppTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8626A0E1175CF6F700D32F79 /* UIKitExtensionsApp */ = {
-			isa = PBXGroup;
-			children = (
-				8626A0EA175CF6F700D32F79 /* AppDelegate.h */,
-				8626A0EB175CF6F700D32F79 /* AppDelegate.m */,
-				8626A0F3175CF6F700D32F79 /* MainStoryboard_iPhone.storyboard */,
-				8626A0F6175CF6F700D32F79 /* MainStoryboard_iPad.storyboard */,
-				8626A0F9175CF6F700D32F79 /* ViewController.h */,
-				8626A0FA175CF6F700D32F79 /* ViewController.m */,
-				8626A0E2175CF6F700D32F79 /* Supporting Files */,
-			);
-			path = UIKitExtensionsApp;
-			sourceTree = "<group>";
-		};
-		8626A0E2175CF6F700D32F79 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8626A0E3175CF6F700D32F79 /* UIKitExtensionsApp-Info.plist */,
-				8626A0E4175CF6F700D32F79 /* InfoPlist.strings */,
-				8626A0E7175CF6F700D32F79 /* main.m */,
-				8626A0E9175CF6F700D32F79 /* UIKitExtensionsApp-Prefix.pch */,
-				8626A0ED175CF6F700D32F79 /* Default.png */,
-				8626A0EF175CF6F700D32F79 /* Default@2x.png */,
-				8626A0F1175CF6F700D32F79 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		8626A108175CF6F700D32F79 /* UIKitExtensionsAppTests */ = {
@@ -413,25 +330,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8626A0D7175CF6F700D32F79 /* UIKitExtensionsApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8626A113175CF6F700D32F79 /* Build configuration list for PBXNativeTarget "UIKitExtensionsApp" */;
-			buildPhases = (
-				E20B2B0096024E69A8BE931F /* Check Pods Manifest.lock */,
-				8626A0D4175CF6F700D32F79 /* Sources */,
-				8626A0D5175CF6F700D32F79 /* Frameworks */,
-				8626A0D6175CF6F700D32F79 /* Resources */,
-				1148DD13121D45ACA09CF2E5 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = UIKitExtensionsApp;
-			productName = UIKitExtensionsApp;
-			productReference = 8626A0D8175CF6F700D32F79 /* UIKitExtensionsApp.app */;
-			productType = "com.apple.product-type.application";
-		};
 		8626A100175CF6F700D32F79 /* UIKitExtensionsAppTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8626A116175CF6F700D32F79 /* Build configuration list for PBXNativeTarget "UIKitExtensionsAppTests" */;
@@ -446,7 +344,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				8626A107175CF6F700D32F79 /* PBXTargetDependency */,
 			);
 			name = UIKitExtensionsAppTests;
 			productName = UIKitExtensionsAppTests;
@@ -474,26 +371,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8626A0D7175CF6F700D32F79 /* UIKitExtensionsApp */,
 				8626A100175CF6F700D32F79 /* UIKitExtensionsAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8626A0D6175CF6F700D32F79 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8626A0E6175CF6F700D32F79 /* InfoPlist.strings in Resources */,
-				8626A0EE175CF6F700D32F79 /* Default.png in Resources */,
-				8626A0F0175CF6F700D32F79 /* Default@2x.png in Resources */,
-				8626A0F2175CF6F700D32F79 /* Default-568h@2x.png in Resources */,
-				8626A0F5175CF6F700D32F79 /* MainStoryboard_iPhone.storyboard in Resources */,
-				8626A0F8175CF6F700D32F79 /* MainStoryboard_iPad.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8626A0FE175CF6F700D32F79 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -505,20 +388,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1148DD13121D45ACA09CF2E5 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-		};
 		665E4B8A61C841D7B084DDD2 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -546,20 +415,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		E20B2B0096024E69A8BE931F /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-		};
 		EE711FC1E14F4D739A0E3EEE /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -577,79 +432,32 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8626A0D4175CF6F700D32F79 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8626A0E8175CF6F700D32F79 /* main.m in Sources */,
-				860EDB2B17FDF8C0001BEEEE /* Core.m in Sources */,
-				8626A0EC175CF6F700D32F79 /* AppDelegate.m in Sources */,
-				8626A0FB175CF6F700D32F79 /* ViewController.m in Sources */,
-				860EDB3117FE292F001BEEEE /* Positioning.m in Sources */,
-				860EDB3717FE3BB9001BEEEE /* Core.m in Sources */,
-				86C7CBC9175ECE9900FE5CEB /* Framing.m in Sources */,
-				8619E63917F225D50044D201 /* RoundedCorners.m in Sources */,
-				86C7CBCB175ECE9900FE5CEB /* Core.m in Sources */,
-				86C7CBCC175ECE9900FE5CEB /* DynamicProperties.m in Sources */,
-				86C7CBCD175ECE9900FE5CEB /* Blocks.m in Sources */,
-				86C7CBCE175ECE9900FE5CEB /* Nulling.m in Sources */,
-				86C7CBCF175ECE9900FE5CEB /* Framing.m in Sources */,
-				860EDB2417FDDE02001BEEEE /* Core.m in Sources */,
-				86C7CBD9175ED04800FE5CEB /* Rotation.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8626A0FC175CF6F700D32F79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				86B88496183C0177004F5968 /* ScalingAndCropping.m in Sources */,
+				86B884A6183C030A004F5968 /* Rotation.m in Sources */,
+				86B884A4183C030A004F5968 /* Nulling.m in Sources */,
 				8692A4FA1764133300BE8DB4 /* Blocks_Tests.m in Sources */,
 				86B88495183C0173004F5968 /* SafeAssets.m in Sources */,
 				86B88499183C0184004F5968 /* Clipping.m in Sources */,
+				86B884A2183C030A004F5968 /* DynamicProperties.m in Sources */,
+				86B884A3183C030A004F5968 /* Blocks.m in Sources */,
 				86B88498183C0182004F5968 /* RoundedCorners.m in Sources */,
 				86B8849A183C0187004F5968 /* Core.m in Sources */,
 				86B88497183C017B004F5968 /* SafeAssets_Tests.m in Sources */,
+				86B884A8183C030A004F5968 /* Positioning.m in Sources */,
 				8692A4FE1764160600BE8DB4 /* DynamicProperties_Tests.m in Sources */,
+				86B884A5183C030A004F5968 /* Framing.m in Sources */,
 				864E6848180287B200F24F3A /* UIGeometry_Tests.m in Sources */,
+				86B884A7183C030A004F5968 /* RoundedCorners.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		8626A107175CF6F700D32F79 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8626A0D7175CF6F700D32F79 /* UIKitExtensionsApp */;
-			targetProxy = 8626A106175CF6F700D32F79 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		8626A0E4175CF6F700D32F79 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8626A0E5175CF6F700D32F79 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8626A0F3175CF6F700D32F79 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8626A0F4175CF6F700D32F79 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		8626A0F6175CF6F700D32F79 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8626A0F7175CF6F700D32F79 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		8626A10B175CF6F700D32F79 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -719,32 +527,6 @@
 			};
 			name = Release;
 		};
-		8626A114175CF6F700D32F79 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE60EA66C83A4B7C85680CB7 /* Pods.xcconfig */;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIKitExtensionsApp/UIKitExtensionsApp-Prefix.pch";
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				INFOPLIST_FILE = "UIKitExtensionsApp/UIKitExtensionsApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		8626A115175CF6F700D32F79 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE60EA66C83A4B7C85680CB7 /* Pods.xcconfig */;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIKitExtensionsApp/UIKitExtensionsApp-Prefix.pch";
-				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				INFOPLIST_FILE = "UIKitExtensionsApp/UIKitExtensionsApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		8626A117175CF6F700D32F79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE4DE4CACC3142C7A27399DF /* Pods-UIKitExtensionsAppTests.xcconfig */;
@@ -755,7 +537,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIKitExtensionsApp/UIKitExtensionsApp-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				INFOPLIST_FILE = "UIKitExtensionsAppTests/UIKitExtensionsAppTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -774,7 +556,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIKitExtensionsApp/UIKitExtensionsApp-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				INFOPLIST_FILE = "UIKitExtensionsAppTests/UIKitExtensionsAppTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -791,15 +573,6 @@
 			buildConfigurations = (
 				8626A111175CF6F700D32F79 /* Debug */,
 				8626A112175CF6F700D32F79 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8626A113175CF6F700D32F79 /* Build configuration list for PBXNativeTarget "UIKitExtensionsApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8626A114175CF6F700D32F79 /* Debug */,
-				8626A115175CF6F700D32F79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
