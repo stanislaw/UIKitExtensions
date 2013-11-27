@@ -7,7 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
-#define UI_SMALL_OFFSET(offset) offset
+#define UI_DESIGNATED_VALUE(value) value
+#define UI_CONTEXT_VALUE(value) value
+#define UI_CONTEXT_OFFSET(offset) offset
 
 static inline UIView * topMostView() {
     return UIApplication.sharedApplication.windows.lastObject;
