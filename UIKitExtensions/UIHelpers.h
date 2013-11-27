@@ -7,6 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define UI_NULL_VALUE_TO_BE_CHANGED_LATER 0
+
 #define UI_DESIGNATED_VALUE(value) value
 #define UI_CONTEXT_VALUE(value) value
 #define UI_CONTEXT_OFFSET(offset) offset
