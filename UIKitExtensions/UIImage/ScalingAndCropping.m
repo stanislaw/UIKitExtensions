@@ -52,7 +52,7 @@
     thumbnailRect.size.height = scaledHeight;
 
 
-    UIGraphicsBeginImageContextWithOptions(targetSize, YES, 0.0);
+    UIGraphicsBeginImageContextWithOptions(targetSize, NO, 0.0);
 
         [sourceImage drawInRect:thumbnailRect];
 
