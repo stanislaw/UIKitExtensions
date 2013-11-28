@@ -109,3 +109,7 @@ UIKitExtensions borrows some of its methods from the following [Stackoverflow](h
 
 Not yet
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/stanislaw/uikitextensions/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
